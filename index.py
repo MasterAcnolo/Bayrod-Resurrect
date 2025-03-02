@@ -30,6 +30,9 @@ async def on_message(message):
         
     if message.content.startswith(prefix + "ping"):
         await message.channel.send(f'Ping de **{round(client.latency * 1000)}ms**')
+        
+    if message.content.startswith("quoi"):
+        await message.channel.send("feur fils de neuille")
 
 #Connection au bot avec le Token dans le fichier env
 
