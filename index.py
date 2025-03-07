@@ -1,3 +1,5 @@
+#################################################
+
 import os
 import json
 import discord
@@ -5,6 +7,9 @@ from discord.ext import commands
 from dotenv import load_dotenv
 import shutil
 from datetime import datetime
+
+#################################################
+
 
 # Charger le fichier .env contenant le TOKEN
 load_dotenv()
@@ -19,11 +24,16 @@ intents.members = True
 prefix = ';'
 bot = commands.Bot(command_prefix=prefix, intents=intents)
 
+#################################################
+
 # ID du canal de bienvenue
 WELCOME_CHANNEL_ID = 1347277296788177037
 
 # Fichier de la base de données
 DATA_FILE = "database.json"
+
+
+#################################################
 
 # 📂 Charger les données existantes
 def load_data():
@@ -40,32 +50,75 @@ def save_data(data):
     with open(DATA_FILE, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
+# 🔄 Fonction pour récupérer/mettre à jour les infos du serveur
+def fetch_server_data(guild: discord.Guild):
+    data = load_data()
+    guild_id = str(guild.id)
+
+    if "servers" not in data:
+        data["servers"] = {}
+
+    data["servers"][guild_id] = {
+        "id": guild.id,
+        "name": guild.name,
+        "owner": guild.owner.name if guild.owner else "Inconnu",
+        "member_count": guild.member_count,
+        "created_at": str(guild.created_at),
+        "text_channels": len(guild.text_channels),
+        "voice_channels": len(guild.voice_channels),
+        "roles_count": len(guild.roles),
+        "preferred_locale": guild.preferred_locale
+    }
+
+    save_data(data)
+    return data["servers"][guild_id]
+
 # 🔄 Fonction pour récupérer/mettre à jour les données d'un utilisateur
 def fetch_user_data(member: discord.Member):
     data = load_data()
     user_id = str(member.id)
 
-    # Si l'utilisateur n'est pas enregistré, on ajoute tout
-    if user_id not in data:
-        data[user_id] = {}
+    if "users" not in data:
+        data["users"] = {}
 
-    # Ajout/Mise à jour des informations
-    data[user_id]["id"] = member.id
-    data[user_id]["name"] = member.name
-    data[user_id]["discriminator"] = member.discriminator
-    data[user_id]["nickname"] = member.nick or "Aucun"
-    data[user_id]["created_at"] = str(member.created_at)
-    data[user_id]["joined_at"] = str(member.joined_at) if member.joined_at else "Inconnu"
-    data[user_id]["roles"] = [role.name for role in member.roles if role.name != "@everyone"]
+    if user_id not in data["users"]:
+        data["users"][user_id] = {}
 
-    save_data(data)  # Sauvegarde après mise à jour
-    return data[user_id]
+    data["users"][user_id] = {
+        "id": member.id,
+        "name": member.name,
+        "discriminator": member.discriminator,
+        "nickname": member.nick or "Aucun",
+        "created_at": str(member.created_at),
+        "joined_at": str(member.joined_at) if member.joined_at else "Inconnu",
+        "roles": [role.name for role in member.roles if role.name != "@everyone"]
+    }
 
-# ➜ Commande pour afficher les infos (et fetch si manquantes)
+    save_data(data)
+    return data["users"][user_id]
+
+# ➜ Commande pour afficher les infos du serveur
+@bot.command()
+async def server(ctx):
+    server_data = fetch_server_data(ctx.guild)
+
+    embed = discord.Embed(title=f"Infos du serveur {ctx.guild.name}", color=discord.Color.gold())
+    embed.add_field(name="ID", value=server_data["id"], inline=False)
+    embed.add_field(name="Propriétaire", value=server_data["owner"], inline=True)
+    embed.add_field(name="Membres", value=server_data["member_count"], inline=True)
+    embed.add_field(name="Créé le", value=server_data["created_at"], inline=False)
+    embed.add_field(name="Nombre de rôles", value=server_data["roles_count"], inline=True)
+    embed.add_field(name="Salons textuels", value=server_data["text_channels"], inline=True)
+    embed.add_field(name="Salons vocaux", value=server_data["voice_channels"], inline=True)
+    embed.add_field(name="Langue préférée", value=server_data["preferred_locale"], inline=False)
+
+    await ctx.send(embed=embed)
+
+# ➜ Commande pour afficher les infos d'un membre
 @bot.command()
 async def infos(ctx, member: discord.Member = None):
     if not member:
-        member = ctx.author  # Si aucun membre n'est précisé, utiliser l'auteur
+        member = ctx.author  
 
     user_data = fetch_user_data(member)
 
@@ -80,35 +133,31 @@ async def infos(ctx, member: discord.Member = None):
 
     await ctx.send(embed=embed)
 
-# ➜ Commande pour mettre à jour les infos d'un utilisateur
-@bot.command()
-async def update(ctx, member: discord.Member):
-    user_data = fetch_user_data(member)
-    await ctx.send(f"Les informations de {member.name} ont été mises à jour !")
+# ➜ Mise à jour automatique des infos serveur au démarrage
+@bot.event
+async def on_ready():
+    for guild in bot.guilds:
+        fetch_server_data(guild)
+    print("✅ Infos des serveurs mises à jour !")
 
-# ➜ Commande pour lister tous les utilisateurs enregistrés
-@bot.command()
-async def list_users(ctx):
-    data = load_data()
-    if not data:
-        await ctx.send("Aucun utilisateur enregistré.")
-        return
-    
-    user_list = "\n".join([f"{user_data['name']}#{user_data['discriminator']} ({user_id})" for user_id, user_data in data.items()])
-    await ctx.send(f"**Utilisateurs enregistrés :**\n{user_list}")
+# ➜ Mise à jour des infos serveur lors d'un changement
+@bot.event
+async def on_guild_update(before, after):
+    fetch_server_data(after)
+    print(f"🔄 Mise à jour du serveur {after.name} ({after.id})")
 
-# ➜ Commande pour supprimer un utilisateur de la base
-@bot.command()
-async def delete(ctx, member: discord.Member):
-    data = load_data()
-    user_id = str(member.id)
+# ➜ Mise à jour quand un membre rejoint ou quitte
+@bot.event
+async def on_member_join(member):
+    fetch_server_data(member.guild)
+    fetch_user_data(member)
+    channel = bot.get_channel(WELCOME_CHANNEL_ID)
+    if channel:
+        await channel.send(f"Bienvenue {member.mention} sur {member.guild.name} !")
 
-    if user_id in data:
-        del data[user_id]
-        save_data(data)
-        await ctx.send(f"Les informations de {member.name} ont été supprimées de la base.")
-    else:
-        await ctx.send(f"{member.name} n'est pas dans la base de données.")
+@bot.event
+async def on_member_remove(member):
+    fetch_server_data(member.guild)
 
 # ➜ Commande pour faire une sauvegarde de la base
 @bot.command()
@@ -117,67 +166,30 @@ async def backup(ctx):
     backup_file = f"database_backup_{timestamp}.json"
     shutil.copy(DATA_FILE, backup_file)
     await ctx.send(f"Base de données sauvegardée sous le nom {backup_file}.")
-
-# ➜ Événement quand un membre rejoint
-@bot.event
-async def on_member_join(member: discord.Member):
-    channel = bot.get_channel(WELCOME_CHANNEL_ID)
-    if channel:
-        await channel.send(f"Bienvenue {member.mention} sur {member.guild.name} !")
-
-    # Mise à jour des infos du membre
-    user_data = fetch_user_data(member)
-    print(f"📌 Données mises à jour pour {member.name} : {user_data}")
-
-
-# Commande pour afficher un embed avec des infos personnalisées
+    
+# Commande pour fetch les datas de tout le monde
 @bot.command()
-async def stats(ctx):
-    # Paramètres personnalisés
-    server_name = ctx.guild.name
-    member_count = ctx.guild.member_count
-    owner_name = ctx.guild.owner.name
-    preferred_locale = ctx.guild.preferred_locale  # Remplacement de la région
-    created_at = ctx.guild.created_at.strftime("%d/%m/%Y")
-    description = "Voici les informations du serveur."
+async def fetchall(ctx):
+    """Met à jour tous les utilisateurs du serveur"""
+    guild = ctx.guild
+    members = guild.members  # Récupère tous les membres du serveur
+    total = len(members)
 
-    # Création de l'embed
-    embed = discord.Embed(
-        title=f"Statistiques du serveur {server_name}",
-        description=description,
-        color=discord.Color.blue()  # Vous pouvez aussi utiliser discord.Color.green(), .red(), etc.
-    )
+    for member in members:
+        fetch_user_data(member)  # Met à jour les données de chaque membre
 
-    # Ajout des champs personnalisés
-    embed.add_field(name="Nom du serveur", value=server_name, inline=False)
-    embed.add_field(name="Propriétaire", value=owner_name, inline=True)
-    embed.add_field(name="Locale préférée", value=preferred_locale, inline=True)
-    embed.add_field(name="Nombre de membres", value=member_count, inline=True)
-    embed.add_field(name="Créé le", value=created_at, inline=False)
+    await ctx.send(f"✅ {total} utilisateurs mis à jour dans la base de données !")
 
-    # Envoi de l'embed dans le canal où la commande a été tapée
-    await ctx.send(embed=embed)
 
-# Liste des commandes
-
+# ➜ Commande pour afficher les commandes
 @bot.command()
 async def commands(ctx):
-    # Création de l'embed
     embed = discord.Embed(
-        title="**📂 Commandes Disponibles: XX**",  # Titre de l'embed
-        description="💻 **Menu des commandes** 💻 \nLe Préfix du Serveur est **" + prefix + "**",  # Description de l'embed
-        color=0x001eff  # Couleur de l'embed
+        title="💻 **Menu des commandes** 💻",
+        description=f"📂 Commandes Disponibles: XX\n♦️Le Préfix du Serveur est **{prefix}**\n☕️ En savoir plus avec : **{prefix}maj**",
+        color=0x001eff
     )
-
-    embed.set_author(name="Bayrod")
-    #embed.set_thumbnail(url=) <-- Icone de Bayrod a rajouter
-    #embed.add_field(name="", value="", inline=False)
-    embed.add_field(name="Le Préfix du Serveur est **" + prefix + "**",value="",inline=False)
-    embed.add_field(name ="☕️ En savoir plus sur la mise à jour avec : **" + prefix + "maj**", value="",inline=False)
-
-    # Envoi de l'embed dans le canal où la commande a été tapée
     await ctx.send(embed=embed)
 
-    
 # ➜ Démarrer le bot
 bot.run(TOKEN)

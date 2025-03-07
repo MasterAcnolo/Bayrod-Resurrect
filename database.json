@@ -19,5 +19,90 @@
             "1",
             "2"
         ]
+    },
+    "servers": {
+        "1077510354021658654": {
+            "id": 1077510354021658654,
+            "name": "Serveur de Test",
+            "owner": "masteracnolo",
+            "member_count": 6,
+            "created_at": "2023-02-21 08:41:27.573000+00:00",
+            "text_channels": 14,
+            "voice_channels": 0,
+            "roles_count": 7,
+            "preferred_locale": [
+                "american_english",
+                "en-US"
+            ]
+        }
+    },
+    "users": {
+        "1345653649975803996": {
+            "id": 1345653649975803996,
+            "name": "The Ressurect One",
+            "discriminator": "8441",
+            "nickname": "Aucun",
+            "created_at": "2025-03-02 07:07:11.190000+00:00",
+            "joined_at": "2025-03-02 07:17:48.329000+00:00",
+            "roles": [
+                "1",
+                "2",
+                "The Ressurect One"
+            ]
+        },
+        "702201518329430117": {
+            "id": 702201518329430117,
+            "name": "VALORANT LABS",
+            "discriminator": "8948",
+            "nickname": "Aucun",
+            "created_at": "2020-04-21 16:58:08.243000+00:00",
+            "joined_at": "2023-09-01 07:44:43.058000+00:00",
+            "roles": [
+                "VALORANT LABS"
+            ]
+        },
+        "724954095042953246": {
+            "id": 724954095042953246,
+            "name": "masteracnolo",
+            "discriminator": "0",
+            "nickname": "MasterAcnolo",
+            "created_at": "2020-06-23 11:48:45.254000+00:00",
+            "joined_at": "2023-02-21 08:41:27.652000+00:00",
+            "roles": [
+                "1",
+                "2"
+            ]
+        },
+        "830422165865234452": {
+            "id": 830422165865234452,
+            "name": "stalinous.",
+            "discriminator": "0",
+            "nickname": "Aucun",
+            "created_at": "2021-04-10 12:41:12.840000+00:00",
+            "joined_at": "2025-03-06 19:06:54.190923+00:00",
+            "roles": []
+        },
+        "1032699319368814652": {
+            "id": 1032699319368814652,
+            "name": "AI Image Generator",
+            "discriminator": "8424",
+            "nickname": "Aucun",
+            "created_at": "2022-10-20 16:58:24.363000+00:00",
+            "joined_at": "2024-06-11 17:15:48.983000+00:00",
+            "roles": [
+                "AI Image Generator"
+            ]
+        },
+        "1077511375397589002": {
+            "id": 1077511375397589002,
+            "name": "Bayrod Reborn",
+            "discriminator": "3013",
+            "nickname": "Aucun",
+            "created_at": "2023-02-21 08:45:31.088000+00:00",
+            "joined_at": "2023-02-21 08:48:36.660000+00:00",
+            "roles": [
+                "Bayrod Reborn"
+            ]
+        }
     }
 }
