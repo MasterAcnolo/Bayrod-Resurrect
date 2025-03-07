@@ -1,6 +1,6 @@
-#################################################
-
-import os
+##################################################
+                                                      
+import os                                         
 import json
 import discord
 from discord.ext import commands
@@ -186,10 +186,17 @@ async def fetchall(ctx):
 async def commands(ctx):
     embed = discord.Embed(
         title="💻 **Menu des commandes** 💻",
-        description=f"📂 Commandes Disponibles: XX\n♦️Le Préfix du Serveur est **{prefix}**\n☕️ En savoir plus avec : **{prefix}maj**",
+        description=f"📂 Commandes Disponibles: XX\n♦️Le Préfix du Serveur est **{prefix}**\n☕️ En savoir plus avec : **{prefix}maj**" + "\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes Publiques: \n ```test```",
         color=0x001eff
     )
     await ctx.send(embed=embed)
 
+#commande de ping
+@bot.command()
+async def ping(ctx):
+    latency = round(bot.latency * 1000)  # Latence en millisecondes
+    await ctx.send(f"🏓** Pong ! Latence : {latency}ms**")
+    
+    
 # ➜ Démarrer le bot
 bot.run(TOKEN)
