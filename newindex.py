@@ -7,7 +7,7 @@ from discord.ext import commands
 from dotenv import load_dotenv
 import shutil
 from datetime import datetime
-
+from discord.ext.commands.errors import CommandNotFound # POUR PLUS AVOIR LE MESSAGE DE CON DANS LA CONSOLE 
 ##################################################################################################
 
 #FAUT IMPORTER LE FICHIER ENV OU YA LE TOKEN 
@@ -220,7 +220,7 @@ async def on_ready():
             
     print("✅ Infos des serveurs mises à jour !")
     
-    await bot.change_presence(activity=discord.Game(name=""))
+    await bot.change_presence(activity=discord.Game(name="Getting Better Every Day"))
     print(f'Bot {bot.user} Est prêt a tout défonder')
     
 
@@ -244,13 +244,14 @@ async def on_member_join(member):
 async def on_member_remove(member):
     fetch_server_data(member.guild)
 
+
+
 ##################################################################################################
 
-#GESTION DES ERREURS 
-#@bot.event
-#async def on_command_error(ctx, error):
- #   if isinstance(error, commands.CommandNotFound):
-  #      await ctx.send("Cette commande n'existe pas.")
+@bot.event
+async def on_command_error(ctx, error):
+    if isinstance(error, CommandNotFound):
+        await ctx.send(f"Commande inconnue : {ctx.message.content}")
         
 ##################################################################################################
 bot.run(TOKEN) # Faut Démarrer le bot quand même zebi
