@@ -1,3 +1,8 @@
+############### Organisation Code ###############
+# Importations des Libs
+# Variables 
+# Fonction BDD
+#
 ##################################################
                                                       
 import os                                         
@@ -20,11 +25,10 @@ intents = discord.Intents.default()
 intents.message_content = True  
 intents.members = True  
 
-# Initialiser le bot
+#################################################
+
 prefix = ';'
 bot = commands.Bot(command_prefix=prefix, intents=intents)
-
-#################################################
 
 # ID du canal de bienvenue
 WELCOME_CHANNEL_ID = 1347277296788177037
