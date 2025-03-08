@@ -1,0 +1,121 @@
+{
+    "servers": {
+        "1077510354021658654": {
+            "id": 1077510354021658654,
+            "name": "Serveur de Test",
+            "owner": "masteracnolo",
+            "member_count": 6,
+            "created_at": "2023-02-21 08:41:27.573000+00:00",
+            "text_channels": 14,
+            "voice_channels": 0,
+            "roles_count": 7,
+            "preferred_locale": [
+                "american_english",
+                "en-US"
+            ]
+        },
+        "1308806097435623434": {
+            "id": 1308806097435623434,
+            "name": "Entre potes au top",
+            "owner": "ii_ytforest_ii",
+            "member_count": 9,
+            "created_at": "2024-11-20 14:48:10.070000+00:00",
+            "text_channels": 4,
+            "voice_channels": 2,
+            "roles_count": 4,
+            "preferred_locale": [
+                "american_english",
+                "en-US"
+            ]
+        }
+    },
+    "users": {
+        "1345653649975803996": {
+            "id": 1345653649975803996,
+            "name": "The Ressurect One",
+            "discriminator": "8441",
+            "nickname": "Aucun",
+            "created_at": "2025-03-02 07:07:11.190000+00:00",
+            "joined_at": "2025-03-07 19:28:01.746233+00:00",
+            "roles": [
+                "The Ressurect One"
+            ]
+        },
+        "411916947773587456": {
+            "id": 411916947773587456,
+            "name": "Jockie Music",
+            "discriminator": "8158",
+            "nickname": "Spotify",
+            "created_at": "2018-02-10 16:10:53.396000+00:00",
+            "joined_at": "2025-01-19 18:12:58.233000+00:00",
+            "roles": [
+                "Jockie Music"
+            ]
+        },
+        "620503386952957952": {
+            "id": 620503386952957952,
+            "name": "ii_ytforest_ii",
+            "discriminator": "0",
+            "nickname": "Aucun",
+            "created_at": "2019-09-09 06:18:55.845000+00:00",
+            "joined_at": "2024-11-20 14:48:10.127000+00:00",
+            "roles": []
+        },
+        "697045243048231012": {
+            "id": 697045243048231012,
+            "name": "wouiyou",
+            "discriminator": "0",
+            "nickname": "Aucun",
+            "created_at": "2020-04-07 11:28:56.417000+00:00",
+            "joined_at": "2024-11-20 14:49:37.161000+00:00",
+            "roles": []
+        },
+        "724954095042953246": {
+            "id": 724954095042953246,
+            "name": "masteracnolo",
+            "discriminator": "0",
+            "nickname": "pip install acnolo",
+            "created_at": "2020-06-23 11:48:45.254000+00:00",
+            "joined_at": "2024-11-29 20:26:36.539000+00:00",
+            "roles": [
+                "Perm acquise"
+            ]
+        },
+        "792436800055803915": {
+            "id": 792436800055803915,
+            "name": "shyro_tmtc",
+            "discriminator": "0",
+            "nickname": "Aucun",
+            "created_at": "2020-12-26 17:00:55.897000+00:00",
+            "joined_at": "2024-12-23 20:48:50.024000+00:00",
+            "roles": []
+        },
+        "891268130016460850": {
+            "id": 891268130016460850,
+            "name": "azeeedada",
+            "discriminator": "0",
+            "nickname": "Aucun",
+            "created_at": "2021-09-25 10:21:21.157000+00:00",
+            "joined_at": "2025-01-31 19:26:45.084579+00:00",
+            "roles": []
+        },
+        "937753902672138280": {
+            "id": 937753902672138280,
+            "name": "ilyes001.",
+            "discriminator": "0",
+            "nickname": "Salam George",
+            "created_at": "2022-01-31 16:59:13.022000+00:00",
+            "joined_at": "2024-11-20 16:20:47.333000+00:00",
+            "roles": []
+        },
+        "1069196781398806579": {
+            "id": 1069196781398806579,
+            "name": "babouche2735",
+            "discriminator": "0",
+            "nickname": "bapute",
+            "created_at": "2023-01-29 10:06:17.401000+00:00",
+            "joined_at": "2024-11-21 18:55:20.947000+00:00",
+            "roles": []
+        }
+    }
+}

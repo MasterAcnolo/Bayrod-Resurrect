@@ -1,0 +1,12 @@
+FETCH Infos User + Write BDD
+FETCH Infos @everyone + Write BDD 
+Update Infos BDD
+FETCH Infos Server + Write BDD
+
+On Join = Message 
+
+BACKUP BDD ALT FILE
+
+COMMANDS LIST EMBED
+
+PING
