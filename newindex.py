@@ -220,7 +220,7 @@ async def on_ready():
             
     print("✅ Infos des serveurs mises à jour !")
     
-    await bot.change_presence(activity=discord.Game(name="Getting Better Every Day"))
+    await bot.change_presence(activity=discord.Game(name="Fetch des datas")) #Getting Better Every Day
     print(f'Bonjour Maître, {bot.user} Est prêt a vous servir')
     
 
