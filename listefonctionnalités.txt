@@ -10,3 +10,5 @@ BACKUP BDD ALT FILE
 COMMANDS LIST EMBED
 
 PING
+
+La Base de données stockes les infos serveur + les infos user avec l'ID comme référence. 
