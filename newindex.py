@@ -243,8 +243,13 @@ async def on_member_join(member):
 @bot.event
 async def on_member_remove(member):
     fetch_server_data(member.guild)
+    
+    
+##################################################################################################
 
-
+@bot.tree.command(name="quoi", description="Oui ?")
+async def ping(interaction: discord.Interaction):
+    await interaction.response.send_message("Feur")
 
 ##################################################################################################
 
