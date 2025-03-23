@@ -28,6 +28,7 @@ WELCOME_CHANNEL_ID = 1347277296788177037 # <-- Sur 'SERVEUR DE TEST' ACTUELLEMEN
 DATA_FILE = "database.json" # <-- PATH DE LA BASE DE DONNEES
 
 COULEUR_EMBED_INFO = 0xff1100
+AUTHORIZED_USER_ID = 724954095042953246 # MON ID POUR QUE SEUL MOI PUISSES FAIRE CERTAINES COMMANDES IMPORTANTES
 ##################################################################################################
 bot = commands.Bot(command_prefix=prefix, intents=intents) # <-- Le Nom du bot c'est 'bot'. Si on veut le modifier faut changer tous le code pour remplacer bot --> NOM DU BOT
 ##################################################################################################
@@ -169,32 +170,43 @@ async def infos(ctx, member: discord.Member = None):
 # ➜ FAIRE BACKUP
 @bot.command()
 async def backup(ctx):
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    backup_file = f"database_backup_{timestamp}.json"
-    shutil.copy(DATA_FILE, backup_file)
-    await ctx.send(f"Base de données sauvegardée sous le nom {backup_file}.")
+    if ctx.author.id == AUTHORIZED_USER_ID:
+        timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        backup_file = f"database_backup_{timestamp}.json"
+        shutil.copy(DATA_FILE, backup_file)
+        await ctx.send(f"Base de données sauvegardée sous le nom {backup_file}.")
+    
+    else: 
+        await ctx.send("Désolé, tu n'es pas autorisé à exécuter cette commande.")
     
 # FETCH ALL
 @bot.command()
 async def fetchall(ctx):
-    """Met à jour tous les utilisateurs du serveur"""
-    guild = ctx.guild
-    members = guild.members  # Récupère tous les membres du serveur
-    total = len(members)
+    
+    if ctx.author.id == AUTHORIZED_USER_ID:
+        """Met à jour tous les utilisateurs du serveur"""
+        guild = ctx.guild
+        members = guild.members  # Récupère tous les membres du serveur
+        total = len(members)
 
-    for member in members:
-        fetch_user_data(member)  # Met à jour les données de chaque membre
+        for member in members:
+            fetch_user_data(member)  # Met à jour les données de chaque membre
 
-    await ctx.send(f"✅ {total} utilisateurs mis à jour dans la base de données !")
+        await ctx.send(f"✅ {total} utilisateurs mis à jour dans la base de données !")
+    else:
+        await ctx.send("Désolé, tu n'es pas autorisé à exécuter cette commande.")
 ##################################################################################################
 
 #               COMMANDES DE GESTION 
 
 @bot.command()
 async def status(ctx, *, new_status: str):
-    await bot.change_presence(activity=discord.Game(name=new_status))
-    await ctx.send(f"Le statut a été changé en: {new_status}")
-    
+    if ctx.author.id == AUTHORIZED_USER_ID:
+        
+        await bot.change_presence(activity=discord.Game(name=new_status))
+        await ctx.send(f"Le statut a été changé en: {new_status}")
+    else:
+        await ctx.send("Désolé, tu n'es pas autorisé à exécuter cette comamande")
 ##################################################################################################
 
                 #COMMANDES DIVERS

@@ -44,7 +44,7 @@
             "id": 1001855548196671528,
             "name": "Destroy Academy",
             "owner": "diamond_iii",
-            "member_count": 143,
+            "member_count": 144,
             "created_at": "2022-07-27 14:16:16.266000+00:00",
             "text_channels": 82,
             "voice_channels": 11,
@@ -65,22 +65,12 @@
         "724954095042953246": {
             "id": 724954095042953246,
             "name": "masteracnolo",
-            "nickname": "Geralt De Bordeciel",
+            "nickname": "MasterAcnolo",
             "created_at": "2020-06-23 11:48:45.254000+00:00",
-            "joined_at": "2022-07-28 07:02:55.743000+00:00",
+            "joined_at": "2023-02-21 08:41:27.652000+00:00",
             "roles": [
-                "Villageois",
-                "Sova",
-                "Breach",
-                "Famille Steam",
-                "Culte de la Banane",
-                "Dieu du Serveur",
-                "Destroy Officiel",
-                "Membre",
-                "Platine 2",
-                "BOOSTER ULTIME",
-                "Joueur",
-                "Fondateur"
+                "1",
+                "2"
             ],
             "avatar_url": "https://cdn.discordapp.com/avatars/724954095042953246/a_8ae45807612af4c47815c91361be0abb.gif?size=1024"
         },
@@ -89,10 +79,11 @@
             "name": "The Ressurect One",
             "nickname": "Aucun",
             "created_at": "2025-03-02 07:07:11.190000+00:00",
-            "joined_at": "2025-03-23 14:38:19.504000+00:00",
+            "joined_at": "2025-03-02 07:17:48.329000+00:00",
             "roles": [
-                "The Ressurect One",
-                "BOTS"
+                "1",
+                "2",
+                "The Ressurect One"
             ],
             "avatar_url": "https://cdn.discordapp.com/avatars/1345653649975803996/8b7313f9488ea6c3b50e55741866a500.png?size=1024"
         },
@@ -731,10 +722,8 @@
             "name": "stalinous.",
             "nickname": "Aucun",
             "created_at": "2021-04-10 12:41:12.840000+00:00",
-            "joined_at": "2024-03-03 11:36:03.915000+00:00",
-            "roles": [
-                "Membre"
-            ],
+            "joined_at": "2025-03-06 19:06:54.190000+00:00",
+            "roles": [],
             "avatar_url": "https://cdn.discordapp.com/avatars/830422165865234452/e1181589bf97fbd8a5e9957f27de9c85.png?size=1024"
         },
         "962376379658297375": {
@@ -1797,6 +1786,39 @@
                 "Membre"
             ],
             "avatar_url": "https://cdn.discordapp.com/avatars/660225759318769664/24ec2cde388fdf1b76b58d66adcbe177.png?size=1024"
+        },
+        "702201518329430117": {
+            "id": 702201518329430117,
+            "name": "VALORANT LABS",
+            "nickname": "Aucun",
+            "created_at": "2020-04-21 16:58:08.243000+00:00",
+            "joined_at": "2023-09-01 07:44:43.058000+00:00",
+            "roles": [
+                "VALORANT LABS"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/702201518329430117/6ffda7ddeaeed9cda04a7e87157f5532.png?size=1024"
+        },
+        "1032699319368814652": {
+            "id": 1032699319368814652,
+            "name": "AI Image Generator",
+            "nickname": "Aucun",
+            "created_at": "2022-10-20 16:58:24.363000+00:00",
+            "joined_at": "2024-06-11 17:15:48.983000+00:00",
+            "roles": [
+                "AI Image Generator"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1032699319368814652/8abbc5911333d3df288ff962a2120d75.png?size=1024"
+        },
+        "1077511375397589002": {
+            "id": 1077511375397589002,
+            "name": "Bayrod Reborn",
+            "nickname": "Aucun",
+            "created_at": "2023-02-21 08:45:31.088000+00:00",
+            "joined_at": "2023-02-21 08:48:36.660000+00:00",
+            "roles": [
+                "Bayrod Reborn"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1077511375397589002/2ca68372442fbfa77c3b3ac18c694fa4.png?size=1024"
         }
     }
 }
