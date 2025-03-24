@@ -38,7 +38,7 @@ def infos_commands(bot):
         embed.set_thumbnail(url=user_data["avatar_url"])
         embed.add_field(name="ID", value=user_data["id"], inline=False)
         embed.add_field(name="Pseudo Global", value=user_data["name"], inline=True)
-        #embed.add_field(name="Discriminateur", value=user_data["discriminator"], inline=True)
+        #embed.add_field(name="Discriminateur", value=user_data["discriminator"], inline=True) Ca sert plus à rien le #
         embed.add_field(name="Pseudo de Serveur", value=user_data["nickname"], inline=False)
         embed.add_field(name="Compte créé le", value=user_data["created_at"], inline=False)
         embed.add_field(name="A rejoint le", value=user_data["joined_at"], inline=False)
@@ -57,4 +57,21 @@ def backup_commands(bot):
             await ctx.send(f"Base de données sauvegardée sous le nom {backup_file}.")
         
         else: 
+            await ctx.send("Désolé, tu n'es pas autorisé à exécuter cette commande.")
+            
+def fetchall_commands(bot):
+    @bot.command()
+    async def fetchall(ctx):
+        
+        if ctx.author.id == AUTHORIZED_USER_ID:
+            """Met à jour tous les utilisateurs du serveur"""
+            guild = ctx.guild
+            members = guild.members  
+            total = len(members)
+
+            for member in members:
+                fetch_user_data(member)  
+
+            await ctx.send(f"✅ {total} utilisateurs mis à jour dans la base de données !")
+        else:
             await ctx.send("Désolé, tu n'es pas autorisé à exécuter cette commande.")

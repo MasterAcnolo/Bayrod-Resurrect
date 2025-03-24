@@ -1,3 +1,5 @@
+from variables import * # Importations de tous ce qu'il y à dans variables.py
+
 # Les Différentes libs
 
 import os                                         
@@ -18,5 +20,12 @@ from datetime import datetime
 
 # Le Format d'importation est dossier.fichier import LES FONCTIONS
 from data.datafunction import fetch_server_data, fetch_user_data, save_data, load_data
-from commands.datacommands import * 
+
+from events.messagedelete import message_delete
+from events.onload import *
+
+from commands.data import *
 from commands.help import *
+from commands.statut import * 
+from commands.divers import *
+from commands.error import *

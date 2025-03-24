@@ -1,5 +1,1786 @@
 {
+    "users": {
+        "1345653649975803996": {
+            "id": 1345653649975803996,
+            "name": "The Ressurect One",
+            "nickname": "Aucun",
+            "created_at": "2025-03-02 07:07:11.190000+00:00",
+            "joined_at": "2025-03-07 19:28:01.746000+00:00",
+            "roles": [
+                "The Ressurect One"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1345653649975803996/8b7313f9488ea6c3b50e55741866a500.png?size=1024"
+        },
+        "702201518329430117": {
+            "id": 702201518329430117,
+            "name": "VALORANT LABS",
+            "nickname": "Aucun",
+            "created_at": "2020-04-21 16:58:08.243000+00:00",
+            "joined_at": "2023-09-01 07:44:43.058000+00:00",
+            "roles": [
+                "VALORANT LABS"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/702201518329430117/6ffda7ddeaeed9cda04a7e87157f5532.png?size=1024"
+        },
+        "724954095042953246": {
+            "id": 724954095042953246,
+            "name": "masteracnolo",
+            "nickname": "curl -U Acnolo",
+            "created_at": "2020-06-23 11:48:45.254000+00:00",
+            "joined_at": "2024-11-29 20:26:36.539000+00:00",
+            "roles": [
+                "Perm acquise"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/724954095042953246/a_8ae45807612af4c47815c91361be0abb.gif?size=1024"
+        },
+        "830422165865234452": {
+            "id": 830422165865234452,
+            "name": "stalinous.",
+            "nickname": "Aucun",
+            "created_at": "2021-04-10 12:41:12.840000+00:00",
+            "joined_at": "2024-03-03 11:36:03.915000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/830422165865234452/e1181589bf97fbd8a5e9957f27de9c85.png?size=1024"
+        },
+        "1032699319368814652": {
+            "id": 1032699319368814652,
+            "name": "AI Image Generator",
+            "nickname": "Aucun",
+            "created_at": "2022-10-20 16:58:24.363000+00:00",
+            "joined_at": "2024-06-11 17:15:48.983000+00:00",
+            "roles": [
+                "AI Image Generator"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1032699319368814652/8abbc5911333d3df288ff962a2120d75.png?size=1024"
+        },
+        "1077511375397589002": {
+            "id": 1077511375397589002,
+            "name": "Bayrod Reborn",
+            "nickname": "Aucun",
+            "created_at": "2023-02-21 08:45:31.088000+00:00",
+            "joined_at": "2023-02-21 08:48:36.660000+00:00",
+            "roles": [
+                "Bayrod Reborn"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1077511375397589002/2ca68372442fbfa77c3b3ac18c694fa4.png?size=1024"
+        },
+        "954823804008398898": {
+            "id": 954823804008398898,
+            "name": "draoxx__",
+            "nickname": "Aucun",
+            "created_at": "2022-03-19 19:28:54.644000+00:00",
+            "joined_at": "2024-02-19 18:23:16.919000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/954823804008398898/74a754b6c3ce023151b1b85e61022d8a.png?size=1024"
+        },
+        "1007267513148649634": {
+            "id": 1007267513148649634,
+            "name": "berserk_9",
+            "nickname": "Aucun",
+            "created_at": "2022-08-11 12:41:29.260000+00:00",
+            "joined_at": "2023-07-30 11:58:14.473000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1007267513148649634/47170d61c72e1f5abeec4be60745aeef.png?size=1024"
+        },
+        "797606436007706674": {
+            "id": 797606436007706674,
+            "name": "ayovas",
+            "nickname": "Aucun",
+            "created_at": "2021-01-09 23:23:13.155000+00:00",
+            "joined_at": "2025-03-09 13:52:15.166000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/797606436007706674/4335c6eddd55c9f50bfa44ce17af3429.png?size=1024"
+        },
+        "468007852053757952": {
+            "id": 468007852053757952,
+            "name": "sosa3788",
+            "nickname": "Aucun",
+            "created_at": "2018-07-15 10:56:07.095000+00:00",
+            "joined_at": "2024-07-06 17:46:22.331000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/468007852053757952/1953f6b724918dde5a39396f9ac80182.png?size=1024"
+        },
+        "677987340207259710": {
+            "id": 677987340207259710,
+            "name": "lastere",
+            "nickname": "Aucun",
+            "created_at": "2020-02-14 21:19:38.301000+00:00",
+            "joined_at": "2023-07-31 12:11:52.686000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/677987340207259710/771bccf7fefbda03346b1d2bce0b0b85.png?size=1024"
+        },
+        "665626654218911755": {
+            "id": 665626654218911755,
+            "name": "perecastor0707",
+            "nickname": "Gnéééé",
+            "created_at": "2020-01-11 18:42:41.111000+00:00",
+            "joined_at": "2023-07-31 12:01:36.214000+00:00",
+            "roles": [
+                "Omen",
+                "Famille Steam",
+                "Membre",
+                "Argent 1"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/665626654218911755/2a248ec7414d109c3690d1112c4f0bc9.png?size=1024"
+        },
+        "547507770656686100": {
+            "id": 547507770656686100,
+            "name": "denko02",
+            "nickname": "Aucun",
+            "created_at": "2019-02-19 20:00:24.727000+00:00",
+            "joined_at": "2024-07-10 16:49:04.963000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/547507770656686100/a_bbc40756ed5401301ffe87f10e74134b.gif?size=1024"
+        },
+        "277430755330752513": {
+            "id": 277430755330752513,
+            "name": "lastbird",
+            "nickname": "Aucun",
+            "created_at": "2017-02-04 13:30:46.485000+00:00",
+            "joined_at": "2025-03-23 13:49:33.712000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/277430755330752513/6872765f8511f1ba0e6e3b37a2aec106.png?size=1024"
+        },
+        "433207472493297665": {
+            "id": 433207472493297665,
+            "name": "saimronah",
+            "nickname": "Aucun",
+            "created_at": "2018-04-10 10:11:50.048000+00:00",
+            "joined_at": "2024-09-24 21:10:25.239000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/433207472493297665/3bc1fac7e5b67fd9dcd21026f9b9bdbb.png?size=1024"
+        },
+        "954274115152379934": {
+            "id": 954274115152379934,
+            "name": "mistedc13",
+            "nickname": "Aucun",
+            "created_at": "2022-03-18 07:04:38.608000+00:00",
+            "joined_at": "2024-09-19 18:01:52.153000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/954274115152379934/9205b16bb58eae0894a277b762a06354.png?size=1024"
+        },
+        "475362225482366977": {
+            "id": 475362225482366977,
+            "name": "struthionidae",
+            "nickname": "Aucun",
+            "created_at": "2018-08-04 17:59:46.358000+00:00",
+            "joined_at": "2025-01-24 21:12:37.802000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/475362225482366977/f3ff26d431992dfaf14ac87406428bd1.png?size=1024"
+        },
+        "696168988341829693": {
+            "id": 696168988341829693,
+            "name": "pato4277",
+            "nickname": "Aucun",
+            "created_at": "2020-04-05 01:27:01.015000+00:00",
+            "joined_at": "2024-07-23 03:15:12.282000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/696168988341829693/88cc1b2241d8381b7cdc1b932d09fa67.png?size=1024"
+        },
+        "706604702170611733": {
+            "id": 706604702170611733,
+            "name": "ariaafr",
+            "nickname": "Aucun",
+            "created_at": "2020-05-03 20:34:49.078000+00:00",
+            "joined_at": "2024-10-13 14:29:38.153000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/706604702170611733/16c30150935102808bb233019d136fbf.png?size=1024"
+        },
+        "363407784676556813": {
+            "id": 363407784676556813,
+            "name": "kazu21",
+            "nickname": "LA SOEUR DU S",
+            "created_at": "2017-09-29 19:32:47.657000+00:00",
+            "joined_at": "2024-10-14 20:26:47.858000+00:00",
+            "roles": [
+                "Brimstone",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/363407784676556813/41f6b4bb78f2f42a7c040ab36ab12cd6.png?size=1024"
+        },
+        "500385755651244053": {
+            "id": 500385755651244053,
+            "name": "oxtardania",
+            "nickname": "Aucun",
+            "created_at": "2018-10-12 19:14:20.865000+00:00",
+            "joined_at": "2024-09-14 13:18:31.163000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/500385755651244053/abdd75becd9409e393a67db4256e0046.png?size=1024"
+        },
+        "369853236372439040": {
+            "id": 369853236372439040,
+            "name": "undernat",
+            "nickname": "Aucun",
+            "created_at": "2017-10-17 14:24:43.092000+00:00",
+            "joined_at": "2025-03-23 13:43:12.890000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/369853236372439040/1709664bdfcea07c9368e075005f7c4d.png?size=1024"
+        },
+        "324514918453739520": {
+            "id": 324514918453739520,
+            "name": "moustik5555",
+            "nickname": "Aucun",
+            "created_at": "2017-06-14 11:46:25.755000+00:00",
+            "joined_at": "2024-03-13 14:30:20.903000+00:00",
+            "roles": [
+                "Yoru",
+                "Omen",
+                "Cypher",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/324514918453739520/f8aa81b0dc957553956b7d0ab0b44bcb.png?size=1024"
+        },
+        "658337099837079562": {
+            "id": 658337099837079562,
+            "name": "robert_stark_de",
+            "nickname": "Aucun",
+            "created_at": "2019-12-22 15:56:35.913000+00:00",
+            "joined_at": "2022-12-22 11:28:29.434000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/658337099837079562/434ddd93ea602948dbf71b03487ded20.png?size=1024"
+        },
+        "713336632631230556": {
+            "id": 713336632631230556,
+            "name": "omeega1309",
+            "nickname": "DSTRY Oméga#2710",
+            "created_at": "2020-05-22 10:25:06.373000+00:00",
+            "joined_at": "2022-08-02 11:32:29.276000+00:00",
+            "roles": [
+                "Villageois",
+                "Viper",
+                "Sage",
+                "Omen",
+                "Destroy Officiel",
+                "Membre",
+                "Destroy Originel",
+                "Grand Sage"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/713336632631230556/c870477cb8f76af6d62a03c83ea5653e.png?size=1024"
+        },
+        "928297690482245652": {
+            "id": 928297690482245652,
+            "name": "dafreshmom",
+            "nickname": "Aucun",
+            "created_at": "2022-01-05 14:43:36.348000+00:00",
+            "joined_at": "2024-03-03 11:38:35.665000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/928297690482245652/d9a3bb906343e41979b24b1a3fdd38de.png?size=1024"
+        },
+        "710405840070377563": {
+            "id": 710405840070377563,
+            "name": "touchegrass",
+            "nickname": "ToucheGrass aka TouchNose",
+            "created_at": "2020-05-14 08:19:10.975000+00:00",
+            "joined_at": "2022-09-20 20:07:26.558000+00:00",
+            "roles": [
+                "Fade",
+                "Chamber",
+                "Breach",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/710405840070377563/3b9b529e6d757b08993470c32743b4a7.png?size=1024"
+        },
+        "443805431853219840": {
+            "id": 443805431853219840,
+            "name": "zeimox",
+            "nickname": "Aucun",
+            "created_at": "2018-05-09 16:04:20.460000+00:00",
+            "joined_at": "2024-03-07 15:46:37.341000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/443805431853219840/76fd020a2ef80fd996ed9abcb17b2c28.png?size=1024"
+        },
+        "825062203442331728": {
+            "id": 825062203442331728,
+            "name": "sigmar9545",
+            "nickname": "Aucun",
+            "created_at": "2021-03-26 17:42:38.215000+00:00",
+            "joined_at": "2024-09-14 15:23:25.080000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/825062203442331728/ba02ec3b47828bdd113aa8be307d7bbb.png?size=1024"
+        },
+        "1271271594341433501": {
+            "id": 1271271594341433501,
+            "name": "lolowhite_57103",
+            "nickname": "Aucun",
+            "created_at": "2024-08-09 00:59:27.175000+00:00",
+            "joined_at": "2024-11-12 20:24:44.928000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "Aucune"
+        },
+        "255290044229746690": {
+            "id": 255290044229746690,
+            "name": "sparadra_31",
+            "nickname": "Aucun",
+            "created_at": "2016-12-05 11:11:29.604000+00:00",
+            "joined_at": "2024-11-06 17:11:53.264000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/255290044229746690/ba36a84cd30fe1a3a9ea1a2354be61a8.png?size=1024"
+        },
+        "536271189145026582": {
+            "id": 536271189145026582,
+            "name": "skayexo",
+            "nickname": "Aucun",
+            "created_at": "2019-01-19 19:50:14.929000+00:00",
+            "joined_at": "2023-07-30 12:19:55.598000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/536271189145026582/95e54461b45c1dbb4ce99fdfbe9c4b39.png?size=1024"
+        },
+        "718409498468810833": {
+            "id": 718409498468810833,
+            "name": "napalm9362",
+            "nickname": "Aucun",
+            "created_at": "2020-06-05 10:22:51.838000+00:00",
+            "joined_at": "2022-11-15 09:43:20.317000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/718409498468810833/cf36969d2886e2ad4b5a4d73dc160d43.png?size=1024"
+        },
+        "608346083906551840": {
+            "id": 608346083906551840,
+            "name": "euh_7",
+            "nickname": "Aucun",
+            "created_at": "2019-08-06 17:10:08.927000+00:00",
+            "joined_at": "2023-07-19 13:15:52.515000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/608346083906551840/78b903473a6a0e7f62df39b1134f9d95.png?size=1024"
+        },
+        "1152980803089875104": {
+            "id": 1152980803089875104,
+            "name": "iwantradiant",
+            "nickname": "Aucun",
+            "created_at": "2023-09-17 14:54:04.804000+00:00",
+            "joined_at": "2024-06-23 13:08:08.033000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1152980803089875104/cca542344a44839ff0c778acab09ddcc.png?size=1024"
+        },
+        "753839106097807471": {
+            "id": 753839106097807471,
+            "name": "casou_",
+            "nickname": "Aucun",
+            "created_at": "2020-09-11 04:47:28.547000+00:00",
+            "joined_at": "2024-02-24 19:57:47.506000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/753839106097807471/ec444eb68b7d55be922869f0fcf7c04c.png?size=1024"
+        },
+        "762712369193156660": {
+            "id": 762712369193156660,
+            "name": "sper_",
+            "nickname": "sPerpilleur de Viper",
+            "created_at": "2020-10-05 16:26:39.326000+00:00",
+            "joined_at": "2024-07-29 20:48:20.582000+00:00",
+            "roles": [
+                "Famille Steam",
+                "Membre",
+                "Diamant 1",
+                "Joueur"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/762712369193156660/143a55652964e210242fd659a4dce887.png?size=1024"
+        },
+        "499550648774164490": {
+            "id": 499550648774164490,
+            "name": "mushy_victory",
+            "nickname": "Aucun",
+            "created_at": "2018-10-10 11:55:55.870000+00:00",
+            "joined_at": "2024-09-28 12:23:22.719000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/499550648774164490/d0db32bff4e622193acfaacd2643e12d.png?size=1024"
+        },
+        "318312854816161792": {
+            "id": 318312854816161792,
+            "name": "DraftBot",
+            "nickname": "Aucun",
+            "created_at": "2017-05-28 09:01:38.555000+00:00",
+            "joined_at": "2022-07-28 06:23:46.972000+00:00",
+            "roles": [
+                "DraftBot",
+                "BOTS"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/318312854816161792/f1d4dc93441273f3f8985a07e0bad164.png?size=1024"
+        },
+        "1098923686058266705": {
+            "id": 1098923686058266705,
+            "name": "kanekixdxdxd",
+            "nickname": "Aucun",
+            "created_at": "2023-04-21 10:50:23.771000+00:00",
+            "joined_at": "2023-08-31 20:11:17.413000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1098923686058266705/2a6b9dd425523720b6a397573f596ec2.png?size=1024"
+        },
+        "395245369757401108": {
+            "id": 395245369757401108,
+            "name": "_wajsnia_",
+            "nickname": "Aucun",
+            "created_at": "2017-12-26 16:03:59.454000+00:00",
+            "joined_at": "2024-12-31 17:50:11.534000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/395245369757401108/8c34e8abe1f583474aece782b60c8729.png?size=1024"
+        },
+        "697045243048231012": {
+            "id": 697045243048231012,
+            "name": "wouiyou",
+            "nickname": "Aucun",
+            "created_at": "2020-04-07 11:28:56.417000+00:00",
+            "joined_at": "2024-11-20 14:49:37.161000+00:00",
+            "roles": [],
+            "avatar_url": "https://cdn.discordapp.com/avatars/697045243048231012/a0a1efffffa5f463216732c14adbc474.png?size=1024"
+        },
+        "464934835316588567": {
+            "id": 464934835316588567,
+            "name": "aminato91350",
+            "nickname": "Aucun",
+            "created_at": "2018-07-06 23:25:02.811000+00:00",
+            "joined_at": "2023-08-06 16:23:30.417000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/464934835316588567/3fe687c9d7e0fa63203f9637f8f49a67.png?size=1024"
+        },
+        "256942574177091587": {
+            "id": 256942574177091587,
+            "name": "mrniall",
+            "nickname": "Aucun",
+            "created_at": "2016-12-10 00:38:03.446000+00:00",
+            "joined_at": "2024-08-02 18:32:01.405000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/256942574177091587/47af41816118ee39a633fb539220ba35.png?size=1024"
+        },
+        "287664545848229889": {
+            "id": 287664545848229889,
+            "name": "ekah_stagne",
+            "nickname": "Aucun",
+            "created_at": "2017-03-04 19:16:12.279000+00:00",
+            "joined_at": "2024-09-14 16:15:25.920000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/287664545848229889/367e6c2afead6a804799bd91721eefe3.png?size=1024"
+        },
+        "751458011746140300": {
+            "id": 751458011746140300,
+            "name": "arealys",
+            "nickname": "DSTRY KAY/OU",
+            "created_at": "2020-09-04 15:05:51.415000+00:00",
+            "joined_at": "2023-12-13 17:34:13.748000+00:00",
+            "roles": [
+                "Phoenix",
+                "Kayo",
+                "Fade",
+                "Famille Steam",
+                "COMRAD",
+                "Membre",
+                "Fer 3",
+                "Chaudière à Condensation"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/751458011746140300/9397417f89be4ebd0721d0af4b7ba5a3.png?size=1024"
+        },
+        "717063885022298133": {
+            "id": 717063885022298133,
+            "name": "rivex_.",
+            "nickname": "Aucun",
+            "created_at": "2020-06-01 17:15:52.592000+00:00",
+            "joined_at": "2022-10-12 05:19:48.324000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/717063885022298133/97b2e3ffdb8c6dbea7f5fe42e5e52831.png?size=1024"
+        },
+        "1229463541443068046": {
+            "id": 1229463541443068046,
+            "name": "epvwg563",
+            "nickname": "Aucun",
+            "created_at": "2024-04-15 16:09:10.608000+00:00",
+            "joined_at": "2025-03-05 18:24:16.730000+00:00",
+            "roles": [
+                "BOOSTER ULTIME"
+            ],
+            "avatar_url": "Aucune"
+        },
+        "607617775430795274": {
+            "id": 607617775430795274,
+            "name": "ilan2626",
+            "nickname": "Aucun",
+            "created_at": "2019-08-04 16:56:06.655000+00:00",
+            "joined_at": "2023-09-17 07:28:45.150000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/607617775430795274/0d115539d9c59f91b60c0a231101ddd3.png?size=1024"
+        },
+        "962667893433200660": {
+            "id": 962667893433200660,
+            "name": "timfro_76",
+            "nickname": "Aucun",
+            "created_at": "2022-04-10 10:58:31.299000+00:00",
+            "joined_at": "2024-03-08 15:32:33.671000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/962667893433200660/e68eef58561b13b72f8f44f0fc739c5e.png?size=1024"
+        },
+        "402854087093256192": {
+            "id": 402854087093256192,
+            "name": "hatmos",
+            "nickname": "Thomås",
+            "created_at": "2018-01-16 15:58:19.030000+00:00",
+            "joined_at": "2022-08-02 15:06:07.843000+00:00",
+            "roles": [
+                "Killjoy",
+                "Harbor",
+                "Cypher",
+                "Breach",
+                "Destroy Officiel",
+                "Membre",
+                "Destroy Originel",
+                "Grand Sage"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/402854087093256192/a76309d8e52d23d6c4cf321e47abf767.png?size=1024"
+        },
+        "748484106546970675": {
+            "id": 748484106546970675,
+            "name": "rorogetk",
+            "nickname": "Aucun",
+            "created_at": "2020-08-27 10:08:37.163000+00:00",
+            "joined_at": "2024-03-13 14:54:55.451000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/748484106546970675/22f1408556c6b1557dee438b88308ec6.png?size=1024"
+        },
+        "962376379658297375": {
+            "id": 962376379658297375,
+            "name": "ValorHub",
+            "nickname": "Le checker de Shop",
+            "created_at": "2022-04-09 15:40:08.999000+00:00",
+            "joined_at": "2023-01-21 12:56:31.494000+00:00",
+            "roles": [
+                "VS",
+                "BOTS"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/962376379658297375/d6abfe855d525c6c760acda8719b1c55.png?size=1024"
+        },
+        "621043300366942208": {
+            "id": 621043300366942208,
+            "name": "mangetesmorts.",
+            "nickname": "Aucun",
+            "created_at": "2019-09-10 18:04:21.234000+00:00",
+            "joined_at": "2023-09-22 18:59:47.206000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/621043300366942208/06eb864f94c74e59ac0fde9137e7c95a.png?size=1024"
+        },
+        "1084051891702468650": {
+            "id": 1084051891702468650,
+            "name": "bouh0_0",
+            "nickname": "Aucun",
+            "created_at": "2023-03-11 09:55:11.692000+00:00",
+            "joined_at": "2024-02-24 09:01:28.023000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1084051891702468650/6199b04cf1656abfc91bea995a93ad91.png?size=1024"
+        },
+        "871059207753977867": {
+            "id": 871059207753977867,
+            "name": ".rm5.",
+            "nickname": "Aucun",
+            "created_at": "2021-07-31 15:58:18.626000+00:00",
+            "joined_at": "2023-04-03 17:31:22.366000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/871059207753977867/4d10aec7eaccdde8d8023046c8a44ed1.png?size=1024"
+        },
+        "893467260310655016": {
+            "id": 893467260310655016,
+            "name": "maxoulekangou",
+            "nickname": "MaxLeKangou#9764",
+            "created_at": "2021-10-01 11:59:54.677000+00:00",
+            "joined_at": "2022-10-05 15:09:13.473000+00:00",
+            "roles": [
+                "Sova",
+                "Sage",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/893467260310655016/615ef3656505c374800e7c3bfba1a8c2.png?size=1024"
+        },
+        "447114197709488129": {
+            "id": 447114197709488129,
+            "name": "g__e__l__o",
+            "nickname": "Aucun",
+            "created_at": "2018-05-18 19:12:11.714000+00:00",
+            "joined_at": "2025-01-09 20:57:46.549000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/447114197709488129/f84683a21e4adc25c4b77907e38c8dc0.png?size=1024"
+        },
+        "972220493958643772": {
+            "id": 972220493958643772,
+            "name": "riaxdsc",
+            "nickname": "Aucun",
+            "created_at": "2022-05-06 19:37:08.743000+00:00",
+            "joined_at": "2023-04-16 16:49:35.491000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/972220493958643772/f209cb8cc546b3d1087af22806c18673.png?size=1024"
+        },
+        "886196406761693204": {
+            "id": 886196406761693204,
+            "name": "Valorant Stats | ValoTracker",
+            "nickname": "Aucun",
+            "created_at": "2021-09-11 10:28:08.105000+00:00",
+            "joined_at": "2024-07-25 07:25:16.865000+00:00",
+            "roles": [
+                "Valorant Stats | ValoTracker",
+                "BOTS"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/886196406761693204/a_13432397565fab4e7862916418c8a5ef.gif?size=1024"
+        },
+        "411916947773587456": {
+            "id": 411916947773587456,
+            "name": "Jockie Music",
+            "nickname": "Spotify",
+            "created_at": "2018-02-10 16:10:53.396000+00:00",
+            "joined_at": "2025-01-19 18:12:58.233000+00:00",
+            "roles": [
+                "Jockie Music"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/411916947773587456/082499e32ffd0549455ef9786fe6ed03.png?size=1024"
+        },
+        "1229461969220800535": {
+            "id": 1229461969220800535,
+            "name": "ztdkg110",
+            "nickname": "Aucun",
+            "created_at": "2024-04-15 16:02:55.761000+00:00",
+            "joined_at": "2025-03-05 18:24:17.787000+00:00",
+            "roles": [
+                "BOOSTER ULTIME"
+            ],
+            "avatar_url": "Aucune"
+        },
+        "596371659066441758": {
+            "id": 596371659066441758,
+            "name": "jlasto_",
+            "nickname": "Aucun",
+            "created_at": "2019-07-04 16:08:03.571000+00:00",
+            "joined_at": "2024-05-31 12:24:27.644000+00:00",
+            "roles": [
+                "Reyna",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/596371659066441758/7ce2db3eed4c6f35cfa60dfdb3359642.png?size=1024"
+        },
+        "945683386100514827": {
+            "id": 945683386100514827,
+            "name": "Nero",
+            "nickname": "Aucun",
+            "created_at": "2022-02-22 14:08:09.194000+00:00",
+            "joined_at": "2024-09-21 09:57:22.421000+00:00",
+            "roles": [
+                "Nero Software",
+                "BOTS"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/945683386100514827/a_9c6c92d8c13f4ee381c5d9ca5fbf6cd5.gif?size=1024"
+        },
+        "320228275374915585": {
+            "id": 320228275374915585,
+            "name": "kikito75",
+            "nickname": "Aucun",
+            "created_at": "2017-06-02 15:52:50.403000+00:00",
+            "joined_at": "2025-01-27 18:50:36.877000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/320228275374915585/4d66812947fde2f788878c031a53256e.png?size=1024"
+        },
+        "485559886843740162": {
+            "id": 485559886843740162,
+            "name": "lomax0307",
+            "nickname": "lomax",
+            "created_at": "2018-09-01 21:21:38.290000+00:00",
+            "joined_at": "2024-04-18 17:35:55.899000+00:00",
+            "roles": [
+                "Famille Steam",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/485559886843740162/5a05bb79cf39763c90c711927beeca6f.png?size=1024"
+        },
+        "1007760971865018468": {
+            "id": 1007760971865018468,
+            "name": "adrien593012a",
+            "nickname": "Aucun",
+            "created_at": "2022-08-12 21:22:18.986000+00:00",
+            "joined_at": "2024-03-16 08:04:48.927000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1007760971865018468/a99aee6073edd4679a8240288ffab915.png?size=1024"
+        },
+        "833066642187223101": {
+            "id": 833066642187223101,
+            "name": "larabeencavale",
+            "nickname": "Aucun",
+            "created_at": "2021-04-17 19:49:25.127000+00:00",
+            "joined_at": "2025-01-19 18:22:05.692000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/833066642187223101/257a48734362f1b4d2138c2eeffbe15d.png?size=1024"
+        },
+        "726530652673146982": {
+            "id": 726530652673146982,
+            "name": "itznexeur",
+            "nickname": "Aucun",
+            "created_at": "2020-06-27 20:13:25.884000+00:00",
+            "joined_at": "2024-04-18 12:49:36.831000+00:00",
+            "roles": [
+                "Villageois",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/726530652673146982/a5e11810b1a974fec958c0e472034ec3.png?size=1024"
+        },
+        "728551999351685172": {
+            "id": 728551999351685172,
+            "name": "farouktagemouati",
+            "nickname": "Aucun",
+            "created_at": "2020-07-03 10:05:32.487000+00:00",
+            "joined_at": "2025-01-01 20:30:26.412000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/728551999351685172/7954a8b23b195f536d3e11e7b17b2328.png?size=1024"
+        },
+        "795969863545782272": {
+            "id": 795969863545782272,
+            "name": "steve6417",
+            "nickname": "Aucun",
+            "created_at": "2021-01-05 11:00:03.874000+00:00",
+            "joined_at": "2023-01-01 17:03:39.080000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/795969863545782272/f7baa23d3f41e28297dd0d8bf0901f24.png?size=1024"
+        },
+        "620503386952957952": {
+            "id": 620503386952957952,
+            "name": "ii_ytforest_ii",
+            "nickname": "Aucun",
+            "created_at": "2019-09-09 06:18:55.845000+00:00",
+            "joined_at": "2024-11-20 14:48:10.127000+00:00",
+            "roles": [],
+            "avatar_url": "https://cdn.discordapp.com/avatars/620503386952957952/ac5c6291cbde564eb9086dbc8c2f9087.png?size=1024"
+        },
+        "608397447118716930": {
+            "id": 608397447118716930,
+            "name": "lilianim",
+            "nickname": "Aucun",
+            "created_at": "2019-08-06 20:34:14.871000+00:00",
+            "joined_at": "2023-10-31 08:01:06.343000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/608397447118716930/de441b50805ab9f487f9f1239e24ca2c.png?size=1024"
+        },
+        "301624664529174528": {
+            "id": 301624664529174528,
+            "name": "tanjericanno",
+            "nickname": "Aucun",
+            "created_at": "2017-04-12 07:48:43.939000+00:00",
+            "joined_at": "2023-07-31 23:59:10.115000+00:00",
+            "roles": [
+                "Chamber",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/301624664529174528/c3189dd4d6422a7ff927031e77c1efb2.png?size=1024"
+        },
+        "1246367446601043978": {
+            "id": 1246367446601043978,
+            "name": "gustave___",
+            "nickname": "DSTRY Gustave (Mahoraga)",
+            "created_at": "2024-06-01 07:39:15.657000+00:00",
+            "joined_at": "2024-06-01 07:46:14.814000+00:00",
+            "roles": [
+                "Membre",
+                "Radiant"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1246367446601043978/26cf1683e6a6e6e38032b63aaf71dfdf.png?size=1024"
+        },
+        "692641231511093249": {
+            "id": 692641231511093249,
+            "name": "gameworld241",
+            "nickname": "Aucun",
+            "created_at": "2020-03-26 07:48:58.244000+00:00",
+            "joined_at": "2023-05-31 12:42:55.296000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/692641231511093249/26edf9eb8aac9f561cfefd1945649894.png?size=1024"
+        },
+        "476808674648784896": {
+            "id": 476808674648784896,
+            "name": "alexicaaaa",
+            "nickname": "Aucun",
+            "created_at": "2018-08-08 17:47:26.713000+00:00",
+            "joined_at": "2024-10-04 15:20:07.916000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/476808674648784896/695259d63b62d08887ef604a0cb4c7e3.png?size=1024"
+        },
+        "523973049184157707": {
+            "id": 523973049184157707,
+            "name": "xx_skygod_xx",
+            "nickname": "Aucun",
+            "created_at": "2018-12-16 21:21:49.874000+00:00",
+            "joined_at": "2022-12-05 11:51:19.980000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/523973049184157707/a17f43a180a0b319ac64db3c971ef02b.png?size=1024"
+        },
+        "694835048448524289": {
+            "id": 694835048448524289,
+            "name": "hydrox_treep",
+            "nickname": "Aucun",
+            "created_at": "2020-04-01 09:06:24.961000+00:00",
+            "joined_at": "2023-06-15 18:13:55.381000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/694835048448524289/eadcb9e83df27a6ce58e1c954b29aac8.png?size=1024"
+        },
+        "444269518353858600": {
+            "id": 444269518353858600,
+            "name": "ahcene93430",
+            "nickname": "Aucun",
+            "created_at": "2018-05-10 22:48:27.304000+00:00",
+            "joined_at": "2023-06-21 07:49:55.306000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/444269518353858600/f8fd67fa44f8f49e95c9be0fd1b336e5.png?size=1024"
+        },
+        "580485707370594309": {
+            "id": 580485707370594309,
+            "name": "spaguettie",
+            "nickname": "Aucun",
+            "created_at": "2019-05-21 20:02:57.540000+00:00",
+            "joined_at": "2025-03-23 15:18:55.362000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/580485707370594309/97701054ec1f61e7e8ddb00cd4a099ac.png?size=1024"
+        },
+        "301367328178700288": {
+            "id": 301367328178700288,
+            "name": "painduper",
+            "nickname": "Aucun",
+            "created_at": "2017-04-11 14:46:10.172000+00:00",
+            "joined_at": "2024-06-29 20:15:30.019000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/301367328178700288/ca1a120665ffca11c3fc8dfe192b4d33.png?size=1024"
+        },
+        "758313136666968076": {
+            "id": 758313136666968076,
+            "name": "_9ri9iba.",
+            "nickname": "Aucun",
+            "created_at": "2020-09-23 13:05:40.558000+00:00",
+            "joined_at": "2024-08-23 10:58:28.220000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/758313136666968076/c0fc3f6735a8f48c97ff93e8e12009bc.png?size=1024"
+        },
+        "792436800055803915": {
+            "id": 792436800055803915,
+            "name": "shyro_tmtc",
+            "nickname": "Aucun",
+            "created_at": "2020-12-26 17:00:55.897000+00:00",
+            "joined_at": "2024-12-23 20:48:50.024000+00:00",
+            "roles": [],
+            "avatar_url": "https://cdn.discordapp.com/avatars/792436800055803915/2763e0f9ca2c1110fda14059bc7972da.png?size=1024"
+        },
+        "833314297597788180": {
+            "id": 833314297597788180,
+            "name": "ectalide",
+            "nickname": "Aucun",
+            "created_at": "2021-04-18 12:13:30.778000+00:00",
+            "joined_at": "2024-03-04 11:39:11.336000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/833314297597788180/67030fb9ee205e34a3d951c2d4c7f585.png?size=1024"
+        },
+        "689056619463573540": {
+            "id": 689056619463573540,
+            "name": "v7ke",
+            "nickname": "DSTRY V7KE#8584",
+            "created_at": "2020-03-16 10:25:00.133000+00:00",
+            "joined_at": "2022-09-24 12:01:57.693000+00:00",
+            "roles": [
+                "Villageois",
+                "Breach",
+                "Destroy Officiel",
+                "Membre",
+                "Destroy Originel",
+                "Grand Sage"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/689056619463573540/4f0ec4866e215ccade876e67f30d39fb.png?size=1024"
+        },
+        "340637927954579486": {
+            "id": 340637927954579486,
+            "name": "tubzaj_",
+            "nickname": "Aucun",
+            "created_at": "2017-07-28 23:33:30.771000+00:00",
+            "joined_at": "2023-06-07 13:28:49.299000+00:00",
+            "roles": [
+                "Raze",
+                "Phoenix",
+                "Neon",
+                "Jett",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/340637927954579486/8a18f929792f84597bade272dd30a9e7.png?size=1024"
+        },
+        "295342229759721483": {
+            "id": 295342229759721483,
+            "name": "ucsupermao",
+            "nickname": "SuperMayo",
+            "created_at": "2017-03-25 23:44:34.768000+00:00",
+            "joined_at": "2024-05-19 21:49:22.345000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/295342229759721483/f41bdc39d5c71a7262e8e3f052ca3476.png?size=1024"
+        },
+        "957653800745840673": {
+            "id": 957653800745840673,
+            "name": "lalavml",
+            "nickname": "Aucun",
+            "created_at": "2022-03-27 14:54:18.445000+00:00",
+            "joined_at": "2023-06-16 14:00:47.003000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/957653800745840673/9e404607da085f19cff7cc12fc179f6b.png?size=1024"
+        },
+        "410092579636641812": {
+            "id": 410092579636641812,
+            "name": "robii_ii",
+            "nickname": "NF enjoyer 1.0",
+            "created_at": "2018-02-05 15:21:30.137000+00:00",
+            "joined_at": "2023-07-29 23:34:09.857000+00:00",
+            "roles": [
+                "Villageois",
+                "Raze",
+                "Sova",
+                "Omen",
+                "Cypher",
+                "Culte de la Banane",
+                "Membre",
+                "Joueur"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/410092579636641812/dda334c4c40f98ae1535a08db4fe6612.png?size=1024"
+        },
+        "318741333017624576": {
+            "id": 318741333017624576,
+            "name": "maada",
+            "nickname": "Aucun",
+            "created_at": "2017-05-29 13:24:15.719000+00:00",
+            "joined_at": "2024-04-27 22:43:58.525000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/318741333017624576/1c07e94402d47d31bf1eef3c564eecda.png?size=1024"
+        },
+        "1057559003531583569": {
+            "id": 1057559003531583569,
+            "name": "dstrylucky68",
+            "nickname": "vieux Modo alsacien alcoolique",
+            "created_at": "2022-12-28 07:21:54.938000+00:00",
+            "joined_at": "2022-12-28 12:42:17.656000+00:00",
+            "roles": [
+                "Maire",
+                "Viper",
+                "Skye",
+                "Dieu du Serveur",
+                "Destroy Officiel",
+                "Membre",
+                "Destroy Originel",
+                "Modérateur"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1057559003531583569/52e935a82e25c11eb81f77f6daf3445d.png?size=1024"
+        },
+        "361470956331597825": {
+            "id": 361470956331597825,
+            "name": "justnaylem",
+            "nickname": "Aucun",
+            "created_at": "2017-09-24 11:16:31.795000+00:00",
+            "joined_at": "2024-01-30 19:22:25.581000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/361470956331597825/844cfd912f0f95af7d33f706341c3e94.png?size=1024"
+        },
+        "891268130016460850": {
+            "id": 891268130016460850,
+            "name": "azeeedada",
+            "nickname": "Aucun",
+            "created_at": "2021-09-25 10:21:21.157000+00:00",
+            "joined_at": "2025-01-31 19:26:45.084000+00:00",
+            "roles": [],
+            "avatar_url": "https://cdn.discordapp.com/avatars/891268130016460850/fcc6465d04b545c39adad7f744655a35.png?size=1024"
+        },
+        "269765686375481344": {
+            "id": 269765686375481344,
+            "name": "alexio6285",
+            "nickname": "La solitude",
+            "created_at": "2017-01-14 09:52:31.636000+00:00",
+            "joined_at": "2022-12-19 13:05:14.593000+00:00",
+            "roles": [
+                "Villageois",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/269765686375481344/65e0f28666b31ff4f8b43d5f3d309bdd.png?size=1024"
+        },
+        "884845698716151830": {
+            "id": 884845698716151830,
+            "name": "mathva80",
+            "nickname": "Aucun",
+            "created_at": "2021-09-07 17:00:54.212000+00:00",
+            "joined_at": "2024-06-13 17:55:51.480000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "Aucune"
+        },
+        "388751925085995009": {
+            "id": 388751925085995009,
+            "name": "zerios",
+            "nickname": "Zerank La Derios",
+            "created_at": "2017-12-08 18:01:21.602000+00:00",
+            "joined_at": "2024-03-29 19:05:43.552000+00:00",
+            "roles": [
+                "Membre",
+                "Joueur"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/388751925085995009/c316ac4f6c707423e073c57f5c1a99c1.png?size=1024"
+        },
+        "631547846134595594": {
+            "id": 631547846134595594,
+            "name": "dracotium",
+            "nickname": "Papa Dracaigri",
+            "created_at": "2019-10-09 17:45:40.110000+00:00",
+            "joined_at": "2022-07-27 17:09:17.993000+00:00",
+            "roles": [
+                "Omen",
+                "Jett",
+                "Astra",
+                "Clés du Serveur",
+                "Destroy Officiel",
+                "Membre",
+                "Destroy Originel",
+                "Platine 1",
+                "Joueur",
+                "Fondateur"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/631547846134595594/7ad615aeaf40dd84348495486d9953ca.png?size=1024"
+        },
+        "321686114047885323": {
+            "id": 321686114047885323,
+            "name": "eli_elo_",
+            "nickname": "Maman Eli",
+            "created_at": "2017-06-06 16:25:46.228000+00:00",
+            "joined_at": "2022-11-05 13:10:55.372000+00:00",
+            "roles": [
+                "Viper",
+                "Reyna",
+                "Raze",
+                "Kayo",
+                "Fade",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/321686114047885323/397a0805bcedcbd143e69f5558e90fd4.png?size=1024"
+        },
+        "825850816250249247": {
+            "id": 825850816250249247,
+            "name": "chxrlie.x3",
+            "nickname": "Aucun",
+            "created_at": "2021-03-28 21:56:18.160000+00:00",
+            "joined_at": "2024-08-03 21:36:21.948000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/825850816250249247/335fc7548dcad0c1067e82df0544b5ad.png?size=1024"
+        },
+        "873253896087293972": {
+            "id": 873253896087293972,
+            "name": "el_pepito.",
+            "nickname": "Aucun",
+            "created_at": "2021-08-06 17:19:13.100000+00:00",
+            "joined_at": "2023-06-30 12:45:04.020000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/873253896087293972/40c73b798e52de00d42de24b9abbcfea.png?size=1024"
+        },
+        "555801686191374348": {
+            "id": 555801686191374348,
+            "name": "gabymp41",
+            "nickname": "Aucun",
+            "created_at": "2019-03-14 17:17:28.284000+00:00",
+            "joined_at": "2024-04-06 13:19:04.702000+00:00",
+            "roles": [
+                "Viper",
+                "Sova",
+                "Skye",
+                "Omen",
+                "Killjoy",
+                "Kayo",
+                "Jett",
+                "Gekko",
+                "Cypher",
+                "Chamber",
+                "Astra",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/555801686191374348/b4f5a18a582a6a4a1ff1febcdd25263c.png?size=1024"
+        },
+        "713121261999489097": {
+            "id": 713121261999489097,
+            "name": "dstrycrewks",
+            "nickname": "felix",
+            "created_at": "2020-05-21 20:09:18.013000+00:00",
+            "joined_at": "2023-06-30 21:31:49.971000+00:00",
+            "roles": [
+                "Reyna",
+                "Fade",
+                "Breach",
+                "Destroy Officiel",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/713121261999489097/d99309f22609f68d9c73040b9405ad38.png?size=1024"
+        },
+        "806148293813731389": {
+            "id": 806148293813731389,
+            "name": "bazaa415",
+            "nickname": "Aucun",
+            "created_at": "2021-02-02 13:05:30.756000+00:00",
+            "joined_at": "2024-07-08 20:28:14.897000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/806148293813731389/19e73b7cbcadb6a934ceeccebd936436.png?size=1024"
+        },
+        "293025864197734402": {
+            "id": 293025864197734402,
+            "name": "scaljiop",
+            "nickname": "Aucun",
+            "created_at": "2017-03-19 14:20:10.182000+00:00",
+            "joined_at": "2024-09-28 12:23:24.524000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/293025864197734402/b7545308f123d753d3a4f5dd3075a255.png?size=1024"
+        },
+        "404239006080040970": {
+            "id": 404239006080040970,
+            "name": "zewloo",
+            "nickname": "Aucun",
+            "created_at": "2018-01-20 11:41:29.447000+00:00",
+            "joined_at": "2024-12-31 20:28:51.542000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/404239006080040970/c3bdede2e99c495be9da804582cfc763.png?size=1024"
+        },
+        "553891059264913418": {
+            "id": 553891059264913418,
+            "name": "drgh0st",
+            "nickname": "Aucun",
+            "created_at": "2019-03-09 10:45:19.327000+00:00",
+            "joined_at": "2023-06-30 21:31:40.121000+00:00",
+            "roles": [
+                "Reyna",
+                "Raze",
+                "Omen",
+                "Jett",
+                "Chamber",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/553891059264913418/2d80a1da8fc4986ef82845d514c00781.png?size=1024"
+        },
+        "736181400759304273": {
+            "id": 736181400759304273,
+            "name": ".crystaluna",
+            "nickname": "soeur de diamond",
+            "created_at": "2020-07-24 11:22:03.530000+00:00",
+            "joined_at": "2022-11-19 09:57:26.842000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/736181400759304273/2d8ab40b6c5431270cba57916290f722.png?size=1024"
+        },
+        "1145361423522857131": {
+            "id": 1145361423522857131,
+            "name": "uwu7678_85167",
+            "nickname": "Aucun",
+            "created_at": "2023-08-27 14:17:23.154000+00:00",
+            "joined_at": "2024-02-17 17:15:34.899000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "Aucune"
+        },
+        "561965138769477652": {
+            "id": 561965138769477652,
+            "name": "capitaine_fr",
+            "nickname": "Aucun",
+            "created_at": "2019-03-31 17:28:49.890000+00:00",
+            "joined_at": "2023-07-18 08:35:10.885000+00:00",
+            "roles": [
+                "Viper",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/561965138769477652/a_3e9d3775cd9380554274ea0ec560521f.gif?size=1024"
+        },
+        "433984088181964817": {
+            "id": 433984088181964817,
+            "name": "ninobrine",
+            "nickname": "💸💸💸 Le banquier 💸💸💸",
+            "created_at": "2018-04-12 13:37:49.657000+00:00",
+            "joined_at": "2022-11-05 15:20:23.246000+00:00",
+            "roles": [
+                "Villageois",
+                "Culte de la Banane",
+                "Membre",
+                "Assistant(e)",
+                "Modérateur"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/433984088181964817/6f30b5cbcab50ee8e38a8498801a0253.png?size=1024"
+        },
+        "1168997884620968126": {
+            "id": 1168997884620968126,
+            "name": "popy280",
+            "nickname": "Aucun",
+            "created_at": "2023-10-31 19:40:14.624000+00:00",
+            "joined_at": "2024-10-27 14:31:54.732000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1168997884620968126/792bdad3473a14587f840817c03a4e6f.png?size=1024"
+        },
+        "400637035607752704": {
+            "id": 400637035607752704,
+            "name": ".sakura_122",
+            "nickname": "Aucun",
+            "created_at": "2018-01-10 13:08:32.765000+00:00",
+            "joined_at": "2024-11-19 18:52:07.852000+00:00",
+            "roles": [
+                "Raze",
+                "Neon",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/400637035607752704/5c25b2a898e43720c98f35ebb0300252.png?size=1024"
+        },
+        "281031075097083904": {
+            "id": 281031075097083904,
+            "name": "nono769320",
+            "nickname": "Aucun",
+            "created_at": "2017-02-14 11:57:09.608000+00:00",
+            "joined_at": "2023-08-11 07:46:02.157000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/281031075097083904/b023174f27d6b42d945eb1cd41e0ce94.png?size=1024"
+        },
+        "705003838083694662": {
+            "id": 705003838083694662,
+            "name": "diamond_iii",
+            "nickname": "Diαmσnd",
+            "created_at": "2020-04-29 10:33:33.337000+00:00",
+            "joined_at": "2022-07-27 14:16:16.282000+00:00",
+            "roles": [
+                "Villageois",
+                "Viper",
+                "Omen",
+                "Famille Steam",
+                "Culte de la Banane",
+                "Destroy Officiel",
+                "Membre",
+                "Destroy Originel",
+                "Or 3",
+                "Platine 1",
+                "Fondateur",
+                "Gris"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/705003838083694662/24ddfc85a4dab8f6438d378333f82fb5.png?size=1024"
+        },
+        "273115122979831810": {
+            "id": 273115122979831810,
+            "name": "petitbisoussurlafessedroite",
+            "nickname": "Aucun",
+            "created_at": "2017-01-23 15:41:59.552000+00:00",
+            "joined_at": "2024-06-16 20:16:32.224000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/273115122979831810/e00e0c57a2b8c78212022d0d823218f2.png?size=1024"
+        },
+        "451379187031343104": {
+            "id": 451379187031343104,
+            "name": "LunaBot 🌙",
+            "nickname": "Aucun",
+            "created_at": "2018-05-30 13:39:44.408000+00:00",
+            "joined_at": "2024-09-22 06:35:08.983000+00:00",
+            "roles": [
+                "LunaBot 🌙",
+                "BOTS"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/451379187031343104/a_737b96d8af81a7914d144e2b3c9fc068.gif?size=1024"
+        },
+        "657285842456543242": {
+            "id": 657285842456543242,
+            "name": "redvz2",
+            "nickname": "Aucun",
+            "created_at": "2019-12-19 18:19:16.622000+00:00",
+            "joined_at": "2024-04-27 22:23:43.493000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/657285842456543242/3502038cc1fcc3b94eddb0a3e9c72c96.png?size=1024"
+        },
+        "351485493222834177": {
+            "id": 351485493222834177,
+            "name": "tigrenard_d",
+            "nickname": "Aucun",
+            "created_at": "2017-08-27 21:57:51.869000+00:00",
+            "joined_at": "2024-08-08 15:16:10.771000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/351485493222834177/9883d1ece217dab43c0127699847e1a0.png?size=1024"
+        },
+        "833973513727246366": {
+            "id": 833973513727246366,
+            "name": "ronfleexx",
+            "nickname": "Ronflex",
+            "created_at": "2021-04-20 07:53:00.151000+00:00",
+            "joined_at": "2023-07-18 16:14:16.431000+00:00",
+            "roles": [
+                "Yoru",
+                "Cypher",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/833973513727246366/ea2e02236ce76e0d3fa5f18f2ec823c9.png?size=1024"
+        },
+        "693481596300296204": {
+            "id": 693481596300296204,
+            "name": "amaury.rob",
+            "nickname": "Aucun",
+            "created_at": "2020-03-28 15:28:16.823000+00:00",
+            "joined_at": "2023-07-31 12:07:39.227000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/693481596300296204/dcfa918fa4c3fb043e53688e4119f731.png?size=1024"
+        },
+        "529984741886394398": {
+            "id": 529984741886394398,
+            "name": "tourbillon",
+            "nickname": "Aucun",
+            "created_at": "2019-01-02 11:30:09.106000+00:00",
+            "joined_at": "2023-03-24 20:17:22.292000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/529984741886394398/e23ab00e87b07d21af0961b423a5a91b.png?size=1024"
+        },
+        "695700977000513607": {
+            "id": 695700977000513607,
+            "name": "_m0a",
+            "nickname": "Aucun",
+            "created_at": "2020-04-03 18:27:18.416000+00:00",
+            "joined_at": "2024-04-23 15:59:17.391000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/695700977000513607/b9cc05cae68837419585410a4331d66b.png?size=1024"
+        },
+        "690557916599681105": {
+            "id": 690557916599681105,
+            "name": "zenhard_off",
+            "nickname": "Aucun",
+            "created_at": "2020-03-20 13:50:37.263000+00:00",
+            "joined_at": "2023-04-25 12:14:26.500000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/690557916599681105/b72fb1a72e2d09f99ba7d71f4b640f7d.png?size=1024"
+        },
+        "658751053268779048": {
+            "id": 658751053268779048,
+            "name": "mancoxus",
+            "nickname": "Aucun",
+            "created_at": "2019-12-23 19:21:30.102000+00:00",
+            "joined_at": "2023-05-28 07:52:48.323000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/658751053268779048/e74a394dfa35c6a0ea6954c85b950219.png?size=1024"
+        },
+        "265464834001207296": {
+            "id": 265464834001207296,
+            "name": "nonenga",
+            "nickname": "Aucun",
+            "created_at": "2017-01-02 13:02:28.524000+00:00",
+            "joined_at": "2022-12-29 17:01:58.775000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/265464834001207296/334e3c4fd6465cafcf93f594468373d9.png?size=1024"
+        },
+        "1229451820917723278": {
+            "id": 1229451820917723278,
+            "name": "qippx956",
+            "nickname": "Aucun",
+            "created_at": "2024-04-15 15:22:36.217000+00:00",
+            "joined_at": "2025-03-05 18:24:17.558000+00:00",
+            "roles": [
+                "BOOSTER ULTIME"
+            ],
+            "avatar_url": "Aucune"
+        },
+        "786226884732125224": {
+            "id": 786226884732125224,
+            "name": "_awk.",
+            "nickname": "Aucun",
+            "created_at": "2020-12-09 13:44:56.709000+00:00",
+            "joined_at": "2023-05-10 14:18:53.782000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/786226884732125224/f312656c22ffe897d5e04b95f18e7066.png?size=1024"
+        },
+        "704075116627361813": {
+            "id": 704075116627361813,
+            "name": "_skyhaze_",
+            "nickname": "DSTRY SKYHAZE#1999",
+            "created_at": "2020-04-26 21:03:08.887000+00:00",
+            "joined_at": "2022-09-24 12:02:57.362000+00:00",
+            "roles": [
+                "Kayo",
+                "Destroy Officiel",
+                "Membre",
+                "Destroy Originel",
+                "Grand Sage"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/704075116627361813/10235f1f93c843c1efde02f871cde8ca.png?size=1024"
+        },
+        "259382655672385536": {
+            "id": 259382655672385536,
+            "name": "gouttes",
+            "nickname": "Aucun",
+            "created_at": "2016-12-16 18:14:04.209000+00:00",
+            "joined_at": "2024-03-22 18:47:43.343000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/259382655672385536/7c126df96c77522bb7b3d32958b7e0ae.png?size=1024"
+        },
+        "331886958160773123": {
+            "id": 331886958160773123,
+            "name": "maxehobbs",
+            "nickname": "Aucun",
+            "created_at": "2017-07-04 20:00:16.987000+00:00",
+            "joined_at": "2024-08-05 18:51:59.106000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/331886958160773123/1b1e2d48692c8403ff21c45f0a0b22b8.png?size=1024"
+        },
+        "1078260873967190076": {
+            "id": 1078260873967190076,
+            "name": "jaimemangerdupain",
+            "nickname": "Aucun",
+            "created_at": "2023-02-23 10:23:45.472000+00:00",
+            "joined_at": "2023-09-02 09:20:35.837000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1078260873967190076/c90f5edbca78f84d7d458a193cce3328.png?size=1024"
+        },
+        "1229451158549172336": {
+            "id": 1229451158549172336,
+            "name": "lqdcr235",
+            "nickname": "Aucun",
+            "created_at": "2024-04-15 15:19:58.296000+00:00",
+            "joined_at": "2025-03-05 18:24:18.301000+00:00",
+            "roles": [
+                "BOOSTER ULTIME"
+            ],
+            "avatar_url": "Aucune"
+        },
+        "627219725994164224": {
+            "id": 627219725994164224,
+            "name": "jesuce_",
+            "nickname": "Aucun",
+            "created_at": "2019-09-27 19:07:15.856000+00:00",
+            "joined_at": "2022-12-11 16:49:04.339000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/627219725994164224/00b741092e36d8fe75de860b840ee25c.png?size=1024"
+        },
+        "1229452443373404160": {
+            "id": 1229452443373404160,
+            "name": "yammi071",
+            "nickname": "Aucun",
+            "created_at": "2024-04-15 15:25:04.622000+00:00",
+            "joined_at": "2025-03-05 18:24:17.626000+00:00",
+            "roles": [
+                "BOOSTER ULTIME"
+            ],
+            "avatar_url": "Aucune"
+        },
+        "173699356673703937": {
+            "id": 173699356673703937,
+            "name": "hasmed_",
+            "nickname": "Aucun",
+            "created_at": "2016-04-24 07:39:13.809000+00:00",
+            "joined_at": "2025-02-20 16:21:39.949000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/173699356673703937/9ebf5133037db3449ecea96fe11b0570.png?size=1024"
+        },
+        "461526442837016587": {
+            "id": 461526442837016587,
+            "name": "dorian9290",
+            "nickname": "Aucun",
+            "created_at": "2018-06-27 13:41:18.719000+00:00",
+            "joined_at": "2024-06-16 20:40:48.489000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/461526442837016587/cb981bdfdf3f6ad938bbf0673623e51e.png?size=1024"
+        },
+        "1039511769523179551": {
+            "id": 1039511769523179551,
+            "name": "DSTRY BOT",
+            "nickname": "Aucun",
+            "created_at": "2022-11-08 12:08:39.049000+00:00",
+            "joined_at": "2022-11-21 15:15:27.305000+00:00",
+            "roles": [
+                "BOTS",
+                "DSTRY BOT"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1039511769523179551/4a1a814c9da61566dceac527ea499336.png?size=1024"
+        },
+        "996156713826787418": {
+            "id": 996156713826787418,
+            "name": "plasma7727",
+            "nickname": "Plastique",
+            "created_at": "2022-07-11 20:51:08.273000+00:00",
+            "joined_at": "2023-09-01 17:17:33.857000+00:00",
+            "roles": [
+                "Phoenix",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/996156713826787418/a_32656c682a9618a73b8e8d77b59e9b1e.gif?size=1024"
+        },
+        "1229450775323869234": {
+            "id": 1229450775323869234,
+            "name": "axawx890",
+            "nickname": "Aucun",
+            "created_at": "2024-04-15 15:18:26.928000+00:00",
+            "joined_at": "2025-03-05 18:24:15.805000+00:00",
+            "roles": [
+                "BOOSTER ULTIME"
+            ],
+            "avatar_url": "Aucune"
+        },
+        "937753902672138280": {
+            "id": 937753902672138280,
+            "name": "ilyes001.",
+            "nickname": "L'arabe Originel",
+            "created_at": "2022-01-31 16:59:13.022000+00:00",
+            "joined_at": "2024-11-20 16:20:47.333000+00:00",
+            "roles": [],
+            "avatar_url": "https://cdn.discordapp.com/avatars/937753902672138280/1d21b2cf747daea4d23e66b1d032c6fa.png?size=1024"
+        },
+        "464069964563742720": {
+            "id": 464069964563742720,
+            "name": "strix64",
+            "nickname": "Strix",
+            "created_at": "2018-07-04 14:08:21.555000+00:00",
+            "joined_at": "2023-06-19 07:58:49.565000+00:00",
+            "roles": [
+                "Neon",
+                "Killjoy",
+                "Gekko",
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/464069964563742720/d8f775f614187940304e97724c35448c.png?size=1024"
+        },
+        "1231259830350512280": {
+            "id": 1231259830350512280,
+            "name": "kiwi181205",
+            "nickname": "Aucun",
+            "created_at": "2024-04-20 15:06:59.257000+00:00",
+            "joined_at": "2024-11-23 19:29:34.438000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1231259830350512280/e85b38b009407d35e281d0080453b756.png?size=1024"
+        },
+        "1229465791016079451": {
+            "id": 1229465791016079451,
+            "name": "tuchx492",
+            "nickname": "Aucun",
+            "created_at": "2024-04-15 16:18:06.948000+00:00",
+            "joined_at": "2025-03-05 18:24:17.530000+00:00",
+            "roles": [
+                "BOOSTER ULTIME"
+            ],
+            "avatar_url": "Aucune"
+        },
+        "605441902870790167": {
+            "id": 605441902870790167,
+            "name": "chatrix",
+            "nickname": "Aucun",
+            "created_at": "2019-07-29 16:49:58.211000+00:00",
+            "joined_at": "2022-10-16 12:15:08.630000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/605441902870790167/bd5abdad3244a4c1bc9b3653f16891ac.png?size=1024"
+        },
+        "712647262446026813": {
+            "id": 712647262446026813,
+            "name": "nxtyx_69",
+            "nickname": "Aucun",
+            "created_at": "2020-05-20 12:45:47.713000+00:00",
+            "joined_at": "2023-04-29 13:30:17.448000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/712647262446026813/3104cc755c19f7fe2e40442f599ca5a2.png?size=1024"
+        },
+        "660225759318769664": {
+            "id": 660225759318769664,
+            "name": "sylphirone",
+            "nickname": "Aucun",
+            "created_at": "2019-12-27 21:01:27.423000+00:00",
+            "joined_at": "2024-11-12 20:23:59.427000+00:00",
+            "roles": [
+                "Membre"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/660225759318769664/24ec2cde388fdf1b76b58d66adcbe177.png?size=1024"
+        },
+        "665842173530341397": {
+            "id": 665842173530341397,
+            "name": "clement9801",
+            "nickname": "Aucun",
+            "created_at": "2020-01-12 08:59:04.919000+00:00",
+            "joined_at": "2025-03-08 19:33:18.920000+00:00",
+            "roles": [],
+            "avatar_url": "https://cdn.discordapp.com/avatars/665842173530341397/e3f71c4257c299ec5b0e02d528e83470.png?size=1024"
+        },
+        "1069196781398806579": {
+            "id": 1069196781398806579,
+            "name": "babouche2735",
+            "nickname": "Aucun",
+            "created_at": "2023-01-29 10:06:17.401000+00:00",
+            "joined_at": "2024-11-21 18:55:20.947000+00:00",
+            "roles": [],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1069196781398806579/dc65bbe9781cf1870c8ef89d54cffef9.png?size=1024"
+        }
+    },
     "servers": {
+        "1001855548196671528": {
+            "id": 1001855548196671528,
+            "name": "Destroy Academy",
+            "owner": "diamond_iii",
+            "member_count": 144,
+            "created_at": "2022-07-27 14:16:16.266000+00:00",
+            "text_channels": 82,
+            "voice_channels": 11,
+            "roles_count": 92,
+            "preferred_locale": [
+                "french",
+                "fr"
+            ],
+            "icon_url": "https://cdn.discordapp.com/icons/1001855548196671528/a_50e5b96fa3ccbe7fd2097be8ec7e01a9.gif?size=1024",
+            "verification_level": "low",
+            "security_settings": {
+                "explicit_content_filter": "all_members",
+                "default_message_notifications": "only_mentions"
+            }
+        },
         "1077510354021658654": {
             "id": 1077510354021658654,
             "name": "Serveur de Test",
@@ -19,33 +1800,26 @@
                 "explicit_content_filter": "all_members",
                 "default_message_notifications": "only_mentions"
             }
-        }
-    },
-    "users": {
-        "724954095042953246": {
-            "id": 724954095042953246,
-            "name": "masteracnolo",
-            "nickname": "MasterAcnolo",
-            "created_at": "2020-06-23 11:48:45.254000+00:00",
-            "joined_at": "2023-02-21 08:41:27.652000+00:00",
-            "roles": [
-                "1",
-                "2"
-            ],
-            "avatar_url": "https://cdn.discordapp.com/avatars/724954095042953246/a_8ae45807612af4c47815c91361be0abb.gif?size=1024"
         },
-        "1345653649975803996": {
-            "id": 1345653649975803996,
-            "name": "The Ressurect One",
-            "nickname": "Aucun",
-            "created_at": "2025-03-02 07:07:11.190000+00:00",
-            "joined_at": "2025-03-02 07:17:48.329000+00:00",
-            "roles": [
-                "1",
-                "2",
-                "The Ressurect One"
+        "1308806097435623434": {
+            "id": 1308806097435623434,
+            "name": "Entre potes au top",
+            "owner": "ii_ytforest_ii",
+            "member_count": 10,
+            "created_at": "2024-11-20 14:48:10.070000+00:00",
+            "text_channels": 4,
+            "voice_channels": 2,
+            "roles_count": 5,
+            "preferred_locale": [
+                "american_english",
+                "en-US"
             ],
-            "avatar_url": "https://cdn.discordapp.com/avatars/1345653649975803996/8b7313f9488ea6c3b50e55741866a500.png?size=1024"
+            "icon_url": "https://cdn.discordapp.com/icons/1308806097435623434/188313259525f483d55d9579f43ed4a4.png?size=1024",
+            "verification_level": "none",
+            "security_settings": {
+                "explicit_content_filter": "disabled",
+                "default_message_notifications": "all_messages"
+            }
         }
     }
 }
