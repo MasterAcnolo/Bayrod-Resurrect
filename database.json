@@ -7,7 +7,7 @@
             "member_count": 6,
             "created_at": "2023-02-21 08:41:27.573000+00:00",
             "text_channels": 14,
-            "voice_channels": 0,
+            "voice_channels": 1,
             "roles_count": 7,
             "preferred_locale": [
                 "american_english",
@@ -65,12 +65,11 @@
         "724954095042953246": {
             "id": 724954095042953246,
             "name": "masteracnolo",
-            "nickname": "MasterAcnolo",
+            "nickname": "curl -U Acnolo",
             "created_at": "2020-06-23 11:48:45.254000+00:00",
-            "joined_at": "2023-02-21 08:41:27.652000+00:00",
+            "joined_at": "2024-11-29 20:26:36.539000+00:00",
             "roles": [
-                "1",
-                "2"
+                "Perm acquise"
             ],
             "avatar_url": "https://cdn.discordapp.com/avatars/724954095042953246/a_8ae45807612af4c47815c91361be0abb.gif?size=1024"
         },
@@ -79,10 +78,8 @@
             "name": "The Ressurect One",
             "nickname": "Aucun",
             "created_at": "2025-03-02 07:07:11.190000+00:00",
-            "joined_at": "2025-03-02 07:17:48.329000+00:00",
+            "joined_at": "2025-03-07 19:28:01.746000+00:00",
             "roles": [
-                "1",
-                "2",
                 "The Ressurect One"
             ],
             "avatar_url": "https://cdn.discordapp.com/avatars/1345653649975803996/8b7313f9488ea6c3b50e55741866a500.png?size=1024"
@@ -90,13 +87,11 @@
         "411916947773587456": {
             "id": 411916947773587456,
             "name": "Jockie Music",
-            "nickname": "La Phantom Spotify",
+            "nickname": "Spotify",
             "created_at": "2018-02-10 16:10:53.396000+00:00",
-            "joined_at": "2022-10-29 08:00:03.766000+00:00",
+            "joined_at": "2025-01-19 18:12:58.233000+00:00",
             "roles": [
-                "Jockie Music",
-                "La Phantom Spotify",
-                "BOTS"
+                "Jockie Music"
             ],
             "avatar_url": "https://cdn.discordapp.com/avatars/411916947773587456/082499e32ffd0549455ef9786fe6ed03.png?size=1024"
         },
@@ -105,11 +100,8 @@
             "name": "ii_ytforest_ii",
             "nickname": "Aucun",
             "created_at": "2019-09-09 06:18:55.845000+00:00",
-            "joined_at": "2022-09-21 10:46:54.311000+00:00",
-            "roles": [
-                "Villageois",
-                "Membre"
-            ],
+            "joined_at": "2024-11-20 14:48:10.127000+00:00",
+            "roles": [],
             "avatar_url": "https://cdn.discordapp.com/avatars/620503386952957952/ac5c6291cbde564eb9086dbc8c2f9087.png?size=1024"
         },
         "697045243048231012": {
@@ -117,10 +109,8 @@
             "name": "wouiyou",
             "nickname": "Aucun",
             "created_at": "2020-04-07 11:28:56.417000+00:00",
-            "joined_at": "2024-02-07 15:38:06.536000+00:00",
-            "roles": [
-                "Membre"
-            ],
+            "joined_at": "2024-11-20 14:49:37.161000+00:00",
+            "roles": [],
             "avatar_url": "https://cdn.discordapp.com/avatars/697045243048231012/a0a1efffffa5f463216732c14adbc474.png?size=1024"
         },
         "792436800055803915": {
@@ -128,10 +118,8 @@
             "name": "shyro_tmtc",
             "nickname": "Aucun",
             "created_at": "2020-12-26 17:00:55.897000+00:00",
-            "joined_at": "2024-01-28 19:19:00.868000+00:00",
-            "roles": [
-                "Membre"
-            ],
+            "joined_at": "2024-12-23 20:48:50.024000+00:00",
+            "roles": [],
             "avatar_url": "https://cdn.discordapp.com/avatars/792436800055803915/2763e0f9ca2c1110fda14059bc7972da.png?size=1024"
         },
         "891268130016460850": {
@@ -139,28 +127,23 @@
             "name": "azeeedada",
             "nickname": "Aucun",
             "created_at": "2021-09-25 10:21:21.157000+00:00",
-            "joined_at": "2023-03-30 08:04:15.932000+00:00",
-            "roles": [
-                "Membre"
-            ],
+            "joined_at": "2025-01-31 19:26:45.084000+00:00",
+            "roles": [],
             "avatar_url": "https://cdn.discordapp.com/avatars/891268130016460850/fcc6465d04b545c39adad7f744655a35.png?size=1024"
         },
         "937753902672138280": {
             "id": 937753902672138280,
             "name": "ilyes001.",
-            "nickname": "Aucun",
+            "nickname": "Salam George",
             "created_at": "2022-01-31 16:59:13.022000+00:00",
-            "joined_at": "2023-10-23 14:09:04.823000+00:00",
-            "roles": [
-                "Reyna",
-                "Membre"
-            ],
+            "joined_at": "2024-11-20 16:20:47.333000+00:00",
+            "roles": [],
             "avatar_url": "https://cdn.discordapp.com/avatars/937753902672138280/1d21b2cf747daea4d23e66b1d032c6fa.png?size=1024"
         },
         "1069196781398806579": {
             "id": 1069196781398806579,
             "name": "babouche2735",
-            "nickname": "bapute",
+            "nickname": "Aucun",
             "created_at": "2023-01-29 10:06:17.401000+00:00",
             "joined_at": "2024-11-21 18:55:20.947000+00:00",
             "roles": [],
@@ -171,7 +154,7 @@
             "name": "clement9801",
             "nickname": "Aucun",
             "created_at": "2020-01-12 08:59:04.919000+00:00",
-            "joined_at": "2025-03-08 19:33:18.920593+00:00",
+            "joined_at": "2025-03-08 19:33:18.920000+00:00",
             "roles": [],
             "avatar_url": "https://cdn.discordapp.com/avatars/665842173530341397/e3f71c4257c299ec5b0e02d528e83470.png?size=1024"
         },
