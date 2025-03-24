@@ -1,0 +1,51 @@
+{
+    "servers": {
+        "1077510354021658654": {
+            "id": 1077510354021658654,
+            "name": "Serveur de Test",
+            "owner": "masteracnolo",
+            "member_count": 6,
+            "created_at": "2023-02-21 08:41:27.573000+00:00",
+            "text_channels": 14,
+            "voice_channels": 1,
+            "roles_count": 7,
+            "preferred_locale": [
+                "american_english",
+                "en-US"
+            ],
+            "icon_url": "https://cdn.discordapp.com/icons/1077510354021658654/27382cf877c76696690126ee439b3f04.png?size=1024",
+            "verification_level": "low",
+            "security_settings": {
+                "explicit_content_filter": "all_members",
+                "default_message_notifications": "only_mentions"
+            }
+        }
+    },
+    "users": {
+        "724954095042953246": {
+            "id": 724954095042953246,
+            "name": "masteracnolo",
+            "nickname": "MasterAcnolo",
+            "created_at": "2020-06-23 11:48:45.254000+00:00",
+            "joined_at": "2023-02-21 08:41:27.652000+00:00",
+            "roles": [
+                "1",
+                "2"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/724954095042953246/a_8ae45807612af4c47815c91361be0abb.gif?size=1024"
+        },
+        "1345653649975803996": {
+            "id": 1345653649975803996,
+            "name": "The Ressurect One",
+            "nickname": "Aucun",
+            "created_at": "2025-03-02 07:07:11.190000+00:00",
+            "joined_at": "2025-03-02 07:17:48.329000+00:00",
+            "roles": [
+                "1",
+                "2",
+                "The Ressurect One"
+            ],
+            "avatar_url": "https://cdn.discordapp.com/avatars/1345653649975803996/8b7313f9488ea6c3b50e55741866a500.png?size=1024"
+        }
+    }
+}

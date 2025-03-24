@@ -4,7 +4,7 @@ import json
 import os
 import discord
 
-DATA_FILE = "data/data.json"
+DATA_FILE = "data/database.json"
 
 # Fonction pour récupérer les données de la base
 def load_data():
