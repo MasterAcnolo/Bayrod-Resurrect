@@ -7,6 +7,4 @@ from data.datafunction import fetch_server_data  # exemple d'importations de fon
         ## CODE 
 
 
-TACHES: 
-
-EVENTS
+TACHES:
