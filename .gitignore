@@ -1,2 +1,5 @@
 .env
-.txt
+__pycache__
+data\__pycache__
+events\__pycache__
+data/database.json

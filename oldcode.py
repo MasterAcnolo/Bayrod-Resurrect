@@ -3,6 +3,7 @@
 import os                                         
 import json
 import discord
+
 from discord.ext import commands
 from dotenv import load_dotenv
 import shutil
@@ -18,6 +19,7 @@ TOKEN = os.getenv("TOKEN")
 intents = discord.Intents.default()
 intents.message_content = True  
 intents.members = True  
+intents.messages = True     
 
 ##################################################################################################
 
@@ -269,7 +271,12 @@ async def ping(interaction: discord.Interaction):
 async def on_command_error(ctx, error):
     if isinstance(error, CommandNotFound):
         await ctx.send(f"Commande inconnue : {ctx.message.content}")
-        
+    
+    
+@bot.event
+async def on_message_delete(message):
+    print(f"Message supprimé par {message.author.name}: {message.content}")
+
 ##################################################################################################
 bot.run(TOKEN) # Faut Démarrer le bot quand même zebi
 ##################################################################################################
