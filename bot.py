@@ -22,7 +22,8 @@ infos_commands(bot)
 print("Chargement de la commande Infos ✅")
 fetchall_commands(bot)
 print("Chargement de la commande Fetch All ✅")
-
+get_messages(bot)
+print("Chargement de la commande Catch Message ✅")
 # COMMANDE DE PERSONNALISATION
 status_command(bot)
 print("Chargement de la commande Status ✅")
@@ -34,11 +35,21 @@ print("Chargement de la commande Help ✅")
 ping_command(bot)
 print("Chargement de la commande Ping ✅")
 
+quoi_command(bot)
+print("Chargement de la commande Quoi ✅")
 # EVENEMENTS
 
-message_delete(bot)
+
 antierror(bot)
 print("Anti Erreur Prêt ✅")
+
+
+guild_update(bot)
+member_join(bot)
+member_remove(bot)
+message_delete(bot)
+print("Fonctions d'événements prêtes ✅")
+
 onload(bot)
 
 
