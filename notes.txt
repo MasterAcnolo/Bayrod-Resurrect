@@ -8,3 +8,6 @@ from data.datafunction import fetch_server_data  # exemple d'importations de fon
 
 
 TACHES:
+
+        Récuperer chaque message et les stocker dans une base de données. 
+        
