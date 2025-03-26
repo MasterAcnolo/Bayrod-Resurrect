@@ -5,6 +5,7 @@ import discord
 from discord.ext import commands
 from datetime import datetime
 import shutil
+from data.annuairefonction import *
 
 def server_commands(bot):
     @bot.command()

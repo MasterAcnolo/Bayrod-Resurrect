@@ -15,5 +15,6 @@ def onload(bot):
             print(f'Statut chargé ✅')
             await bot.change_presence(activity=discord.Game(name="DEBUG MODE")) #Getting Better Every Day
         print(f'Bonjour Maître, {bot.user} Est prêt a vous servir')
+        print(text_art)
         
         
