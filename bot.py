@@ -3,6 +3,7 @@ from imports import * # Importations de tous ce qu'il y à dans imports.py
 import discord
 from discord.ext import commands
 
+
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
 
@@ -26,12 +27,11 @@ get_messages(bot)
 print("Chargement de la commande Catch Message ✅")
 
 
+
 # COMMANDE DE PERSONNALISATION
 status_command(bot)
 print("Chargement de la commande Status ✅")
 
-# backup_commands(bot)
-# print("Chargement de la commande Backup ✅")
 
 
 # COMMANDE DIVERS / HELP
@@ -41,6 +41,7 @@ ping_command(bot)
 print("Chargement de la commande Ping ✅")
 quoi_command(bot)
 print("Chargement de la commande Quoi ✅")
+
 # EVENEMENTS
 
 
@@ -55,7 +56,6 @@ message_delete(bot)
 print("Fonctions d'événements prêtes ✅")
 
 onload(bot)
-
 
 
 bot.run(TOKEN)

@@ -66,12 +66,19 @@ def fetch_all_commands(bot):
             guild = ctx.guild
             members = guild.members  
             total = len(members)
-            print(f"Nombre total de membres à traiter: {total}")  # Debug
+            print(f"Nombre total de membres à traiter: {total}")  
 
+            
+            updated_count = 0
+
+            
             for member in members:
-                print(f"Traitement de {member.name} ({member.id})")  # Debug
-                fetch_user_data(member)  
+                print(f"Traitement de {member.name} ({member.id})")  
+                result = fetch_user_data(member)  
+                if result:
+                    updated_count += 1  
 
-            await ctx.send(f"✅ {total} utilisateurs mis à jour dans la base de données !")
+            
+            await ctx.send(f"✅ {updated_count} utilisateurs sur {total} ont été mis à jour dans la base de données !")
         else:
             await ctx.send("Désolé, tu n'es pas autorisé à exécuter cette commande.")

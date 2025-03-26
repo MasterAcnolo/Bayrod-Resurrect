@@ -27,6 +27,7 @@ from events.guildupdate import *
 from events.memberjoin import *
 from events.memberremove import *
 from data.getmessage import *
+from data.annuairefonction import *
 
 from commands.data import *
 from commands.help import *
@@ -34,3 +35,4 @@ from commands.statut import *
 from commands.divers import *
 from commands.error import *
 from commands.backupbdd import * 
+from commands.slash import *
