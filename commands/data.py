@@ -66,8 +66,8 @@ def fetch_all_commands(bot):
             guild = ctx.guild
             members = guild.members  
             total = len(members)
-            
-            print(f"Nombre total de membres à traiter: {total}")  
+            if DEBUG_MODE == True:
+                print(f"Nombre total de membres à traiter: {total}")  
 
             
             updated_count = 0
