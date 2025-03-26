@@ -19,7 +19,7 @@ from datetime import datetime
 # IMPORTATION DES FICHIERS EXTERNES 
 
 # Le Format d'importation est dossier.fichier import LES FONCTIONS
-from data.datafunction import fetch_server_data, fetch_user_data, save_data, load_data
+from data.datafunction import *
 
 from events.messagedelete import *
 from events.onload import *
@@ -33,3 +33,4 @@ from commands.help import *
 from commands.statut import * 
 from commands.divers import *
 from commands.error import *
+from commands.backupbdd import * 

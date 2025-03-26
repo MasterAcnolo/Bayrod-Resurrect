@@ -1,35 +1,38 @@
-# database_handler.py
-
 import json
 import os
 import discord
 
-DATA_FILE = "data/database.json"
 
-# Fonction pour récupérer les données de la base
-def load_data():
-    if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, "r", encoding="utf-8") as file:
+# Dossiers de stockage des bases de données
+BASE_SERVERS_DIR = "data/servers"
+BASE_USERS_DIR = "data/users"
+
+# 📌 Charger les données d'un serveur
+def load_server_data(guild_id):
+    server_file = os.path.join(BASE_SERVERS_DIR, f"{guild_id}.json")
+    
+    if os.path.exists(server_file):
+        with open(server_file, "r", encoding="utf-8") as file:
             try:
                 return json.load(file)
             except json.JSONDecodeError:
                 return {}
     return {}
 
-# Fonction pour sauvegarder les données dans la base
-def save_data(data):
-    with open(DATA_FILE, "w", encoding="utf-8") as file:
+# 💾 Sauvegarder les données d'un serveur
+def save_server_data(guild_id, data):
+    os.makedirs(BASE_SERVERS_DIR, exist_ok=True)  # Assure que le dossier existe
+    server_file = os.path.join(BASE_SERVERS_DIR, f"{guild_id}.json")
+
+    with open(server_file, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
-# Fonction pour récupérer ou mettre à jour les infos d'un serveur
+# 📊 Récupérer ou mettre à jour les infos d'un serveur
 def fetch_server_data(guild: discord.Guild):
-    data = load_data()
     guild_id = str(guild.id)
+    data = load_server_data(guild_id)
 
-    if "servers" not in data:
-        data["servers"] = {}
-
-    data["servers"][guild_id] = {
+    data = {
         "id": guild.id,
         "name": guild.name,
         "owner": guild.owner.name if guild.owner else "Inconnu",
@@ -47,12 +50,32 @@ def fetch_server_data(guild: discord.Guild):
         }
     }
 
-    save_data(data)
-    return data["servers"][guild_id]
+    save_server_data(guild_id, data)
+    return data
 
-# Fonction pour récupérer ou mettre à jour les infos d'un utilisateur
+# 📌 Charger les données d'un utilisateur
+def load_user_data(user_id):
+    user_file = os.path.join(BASE_USERS_DIR, f"{user_id}.json")
+    
+    if os.path.exists(user_file):
+        with open(user_file, "r", encoding="utf-8") as file:
+            try:
+                return json.load(file)
+            except json.JSONDecodeError:
+                return {}
+    return {}
+
+# 💾 Sauvegarder les données d'un utilisateur
+def save_user_data(user_id, data):
+    os.makedirs(BASE_USERS_DIR, exist_ok=True)  # Assure que le dossier existe
+    user_file = os.path.join(BASE_USERS_DIR, f"{user_id}.json")
+
+    with open(user_file, "w", encoding="utf-8") as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
+
+# 🧑‍💻 Récupérer ou mettre à jour les infos d'un utilisateur
 def fetch_user_data(member: discord.Member):
-    data = load_data()
+    data = load_user_data()
     user_id = str(member.id)
 
     if "users" not in data:
@@ -62,7 +85,10 @@ def fetch_user_data(member: discord.Member):
         data["users"][user_id] = {}
 
     avatar_url = str(member.avatar.url) if member.avatar else "Aucune"
-    
+
+    # Récupérer les serveurs où l'utilisateur est présent
+    mutual_guilds = [guild.name for guild in member.mutual_guilds]
+
     data["users"][user_id] = {
         "id": member.id,
         "name": member.name,
@@ -71,7 +97,8 @@ def fetch_user_data(member: discord.Member):
         "joined_at": str(member.joined_at) if member.joined_at else "Inconnu",
         "roles": [role.name for role in member.roles if role.name != "@everyone"],
         "avatar_url": avatar_url,
+        "servers": mutual_guilds,  # Ajout de la liste des serveurs
     }
 
-    save_data(data)
+    save_user_data(data)
     return data["users"][user_id]

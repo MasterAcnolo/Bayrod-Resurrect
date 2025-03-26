@@ -1,0 +1,20 @@
+{
+    "id": 1077510354021658654,
+    "name": "Serveur de Test",
+    "owner": "masteracnolo",
+    "member_count": 6,
+    "created_at": "2023-02-21 08:41:27.573000+00:00",
+    "text_channels": 14,
+    "voice_channels": 1,
+    "roles_count": 7,
+    "preferred_locale": [
+        "american_english",
+        "en-US"
+    ],
+    "icon_url": "https://cdn.discordapp.com/icons/1077510354021658654/27382cf877c76696690126ee439b3f04.png?size=1024",
+    "verification_level": "low",
+    "security_settings": {
+        "explicit_content_filter": "all_members",
+        "default_message_notifications": "only_mentions"
+    }
+}

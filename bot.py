@@ -10,7 +10,7 @@ intents = discord.Intents.default()
 intents.message_content = True      
 intents.members = True  
 intents.messages = True 
-   
+
 bot = commands.Bot(command_prefix=prefix, intents=intents)
 
 # COMMANDES DE DATA
@@ -20,21 +20,25 @@ backup_commands(bot)
 print("Chargement de la commande Backup ✅")
 infos_commands(bot)
 print("Chargement de la commande Infos ✅")
-fetchall_commands(bot)
+fetch_all_commands(bot)
 print("Chargement de la commande Fetch All ✅")
 get_messages(bot)
 print("Chargement de la commande Catch Message ✅")
+
+
 # COMMANDE DE PERSONNALISATION
 status_command(bot)
 print("Chargement de la commande Status ✅")
 
+# backup_commands(bot)
+# print("Chargement de la commande Backup ✅")
+
+
 # COMMANDE DIVERS / HELP
 help_commands(bot)
 print("Chargement de la commande Help ✅")
-
 ping_command(bot)
 print("Chargement de la commande Ping ✅")
-
 quoi_command(bot)
 print("Chargement de la commande Quoi ✅")
 # EVENEMENTS
