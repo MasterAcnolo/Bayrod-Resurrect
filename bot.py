@@ -1,8 +1,7 @@
 from variables import *
-from imports import * # Importations de tous ce qu'il y à dans imports.py
+from imports import *
 import discord
 from discord.ext import commands
-
 
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
@@ -16,44 +15,63 @@ bot = commands.Bot(command_prefix=prefix, intents=intents)
 
 # COMMANDES DE DATA
 server_commands(bot)
-print("Chargement de la commande Server ✅")
+if DEBUG_MODE == True:
+    print("Chargement de la commande Server ✅")
+    
 backup_commands(bot)
-print("Chargement de la commande Backup ✅")
+if DEBUG_MODE == True:
+    print("Chargement de la commande Backup ✅")
+    
 infos_commands(bot)
-print("Chargement de la commande Infos ✅")
+if DEBUG_MODE == True:
+    print("Chargement de la commande Infos ✅")
+    
 fetch_all_commands(bot)
-print("Chargement de la commande Fetch All ✅")
+if DEBUG_MODE == True:
+    print("Chargement de la commande Fetch All ✅")
+    
 get_messages(bot)
-print("Chargement de la commande Catch Message ✅")
+if DEBUG_MODE == True:
+    print("Chargement de la commande Catch Message ✅")
 
-
+fetch_user_id_command(bot)
+if DEBUG_MODE == True:
+    print("Chargement de la commande ID ✅")
 
 # COMMANDE DE PERSONNALISATION
 status_command(bot)
-print("Chargement de la commande Status ✅")
+if DEBUG_MODE == True:
+    print("Chargement de la commande Status ✅")
 
 
 
 # COMMANDE DIVERS / HELP
 help_commands(bot)
-print("Chargement de la commande Help ✅")
+if DEBUG_MODE == True:
+    print("Chargement de la commande Help ✅")
+    
 ping_command(bot)
-print("Chargement de la commande Ping ✅")
+if DEBUG_MODE == True:
+    print("Chargement de la commande Ping ✅")
+    
 quoi_command(bot)
-print("Chargement de la commande Quoi ✅")
+if DEBUG_MODE == True:
+    print("Chargement de la commande Quoi ✅")
 
 # EVENEMENTS
 
 
 antierror(bot)
-print("Anti Erreur Prêt ✅")
+if DEBUG_MODE == True:
+    print("Anti Erreur Prêt ✅")
 
 
 guild_update(bot)
 member_join(bot)
 member_remove(bot)
 message_delete(bot)
-print("Fonctions d'événements prêtes ✅")
+if DEBUG_MODE == True:
+    print("Fonctions d'événements prêtes ✅")
 
 onload(bot)
 

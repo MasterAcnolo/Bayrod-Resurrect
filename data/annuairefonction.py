@@ -1,8 +1,9 @@
 import json
 import os
 from data.datafunction import * 
+from variables import *
 
-DIRECTORY_FILE = "data/user_directory.json"
+
 
 
 def load_user_directory():
@@ -18,7 +19,7 @@ def load_user_directory():
     return {}
 
 def save_user_directory(data):
-    os.makedirs("data", exist_ok=True)  # Crée le dossier s'il n'existe pas
+    os.makedirs("data", exist_ok=True)  
     with open(DIRECTORY_FILE, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
@@ -28,9 +29,11 @@ def add_user_to_directory(user_id, username):
     if user_id not in directory:
         directory[user_id] = username
         save_user_directory(directory)
-        print(f"Utilisateur {username} ajouté à l'annuaire.")  # Debug
+        if DEBUG_MODE == True:
+            print(f"Utilisateur {username} ajouté à l'annuaire.")  
     else:
-        print(f"L'utilisateur {username} existe déjà dans l'annuaire.")  # Debug
+        if DEBUG_MODE == True:
+            print(f"L'utilisateur {username} existe déjà dans l'annuaire.")  
 
 
 def update_user_in_directory(user_id, username):
@@ -39,9 +42,11 @@ def update_user_in_directory(user_id, username):
     if user_id in directory:
         directory[user_id] = username
         save_user_directory(directory)
-        print(f"Utilisateur {username} mis à jour dans l'annuaire.")  # Debug
+        if DEBUG_MODE == True:
+            print(f"Utilisateur {username} mis à jour dans l'annuaire.")  # Debug
     else:
-        print(f"L'utilisateur {username} n'existe pas dans l'annuaire.")  # Debug
+        if DEBUG_MODE == True:
+            print(f"L'utilisateur {username} n'existe pas dans l'annuaire.")  # Debug
 
 
 
@@ -52,5 +57,6 @@ def get_username_by_id(user_id):
     if username:
         return username
     else:
-        print(f"Aucun utilisateur trouvé pour l'ID {user_id}.")  # Debug
+        if DEBUG_MODE == True:
+         print(f"Aucun utilisateur trouvé pour l'ID {user_id}.")  
         return None

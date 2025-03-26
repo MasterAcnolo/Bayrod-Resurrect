@@ -2,11 +2,8 @@ import json
 import os
 import discord
 from data.annuairefonction import *
-
-
-BASE_SERVERS_DIR = "data/servers"
-BASE_USERS_DIR = "data/users"
-
+from variables import *
+from imports import *
 
 def load_server_data(guild_id):
     server_file = os.path.join(BASE_SERVERS_DIR, f"{guild_id}.json")

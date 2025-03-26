@@ -4,3 +4,8 @@ DATA_FILE = "data\database.json" # <-- PATH DE LA BASE DE DONNEES
 COULEUR_EMBED_INFO = 0xff1100
 AUTHORIZED_USER_ID = 724954095042953246
 
+DEBUG_MODE = False
+
+BASE_SERVERS_DIR = "data/servers"
+BASE_USERS_DIR = "data/users"
+DIRECTORY_FILE = "data/user_directory.json"

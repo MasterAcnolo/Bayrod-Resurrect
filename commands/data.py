@@ -1,5 +1,5 @@
 from imports import *
-from variables import * 
+from variables import *
 from data.datafunction import fetch_server_data, fetch_user_data
 import discord
 from discord.ext import commands
@@ -66,19 +66,32 @@ def fetch_all_commands(bot):
             guild = ctx.guild
             members = guild.members  
             total = len(members)
+            
             print(f"Nombre total de membres à traiter: {total}")  
 
             
             updated_count = 0
 
-            
-            for member in members:
-                print(f"Traitement de {member.name} ({member.id})")  
-                result = fetch_user_data(member)  
-                if result:
-                    updated_count += 1  
+            if DEBUG_MODE == True:
+                for member in members:
+                    print(f"Traitement de {member.name} ({member.id})")  
+                    result = fetch_user_data(member)  
+                    if result:
+                        updated_count += 1  
 
-            
+                
             await ctx.send(f"✅ {updated_count} utilisateurs sur {total} ont été mis à jour dans la base de données !")
         else:
             await ctx.send("Désolé, tu n'es pas autorisé à exécuter cette commande.")
+            
+
+def fetch_user_id_command(bot):
+    @bot.command()
+    async def id(ctx, user_id: str):
+        username = get_username_by_id(user_id)
+        
+        if username:
+            await ctx.send(f"🔎 L'utilisateur avec l'ID `{user_id}` est <@{user_id}>.", 
+                           allowed_mentions=discord.AllowedMentions(users=False))
+        else:
+            await ctx.send(f"❌ Aucun utilisateur trouvé pour l'ID `{user_id}`.")
