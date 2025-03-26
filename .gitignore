@@ -4,4 +4,7 @@ data\__pycache__
 events\__pycache__
 data/users/*.json
 data/servers/*.json
-data/database.json
+data/user_directory.json
+
+!data/users/
+!data/servers/
