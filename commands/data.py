@@ -47,31 +47,38 @@ def infos_commands(bot):
         await ctx.send(embed=embed)
         
         
-def backup_commands(bot):
-    @bot.command()
-    async def backup(ctx):
-        if ctx.author.id == AUTHORIZED_USER_ID:
-            timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-            backup_file = f"database_backup_{timestamp}.json"
-            shutil.copy(DATA_FILE, backup_file)
-            await ctx.send(f"Base de données sauvegardée sous le nom {backup_file}.")
+# def backup_commands(bot):
+#     @bot.command()
+#     async def backup(ctx):
+#         if ctx.author.id == AUTHORIZED_USER_ID:
+#             timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+#             backup_file = f"database_backup_{timestamp}.json"
+#             shutil.copy(DATA_FILE, backup_file)
+#             await ctx.send(f"Base de données sauvegardée sous le nom {backup_file}.")
         
-        else: 
-            await ctx.send("Désolé, tu n'es pas autorisé à exécuter cette commande.")
-            
-def fetchall_commands(bot):
+#         else: 
+#             await ctx.send("Désolé, tu n'es pas autorisé à exécuter cette commande.")
+
+def fetch_all_commands(bot):
     @bot.command()
     async def fetchall(ctx):
-        
         if ctx.author.id == AUTHORIZED_USER_ID:
-            """Met à jour tous les utilisateurs du serveur"""
             guild = ctx.guild
             members = guild.members  
             total = len(members)
+            print(f"Nombre total de membres à traiter: {total}")  
 
+            
+            updated_count = 0
+
+            
             for member in members:
-                fetch_user_data(member)  
+                print(f"Traitement de {member.name} ({member.id})")  
+                result = fetch_user_data(member)  
+                if result:
+                    updated_count += 1  
 
-            await ctx.send(f"✅ {total} utilisateurs mis à jour dans la base de données !")
+            
+            await ctx.send(f"✅ {updated_count} utilisateurs sur {total} ont été mis à jour dans la base de données !")
         else:
             await ctx.send("Désolé, tu n'es pas autorisé à exécuter cette commande.")
