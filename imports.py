@@ -8,7 +8,7 @@ import discord
 from discord.ext import commands
 from discord.ext.commands.errors import CommandNotFound 
 
-from dotenv import load_dotenv #Pour charger le token du .env
+from dotenv import load_dotenv # Pour charger le token du .env
 
 import shutil #Utiliser pour la BDD
 import json
@@ -18,7 +18,6 @@ from datetime import datetime
 
 # IMPORTATION DES FICHIERS EXTERNES 
 
-# Le Format d'importation est dossier.fichier import LES FONCTIONS
 from data.datafunction import *
 
 from events.messagedelete import *
@@ -35,4 +34,3 @@ from commands.statut import *
 from commands.divers import *
 from commands.error import *
 from commands.backupbdd import * 
-from commands.slash import *
