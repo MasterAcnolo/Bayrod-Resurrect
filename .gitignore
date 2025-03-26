@@ -1,10 +1,13 @@
+
 .env
-__pycache__
-data\__pycache__
-events\__pycache__
+__pycache__/
+data/__pycache__/
+events/__pycache__/
+
+
 data/users/*.json
 data/servers/*.json
 data/user_directory.json
 
-!data/users/
-!data/servers/
+!data/users/.gitkeep
+!data/servers/.gitkeep
