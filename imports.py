@@ -34,3 +34,4 @@ from commands.statut import *
 from commands.divers import *
 from commands.error import *
 from commands.backupbdd import * 
+from commands.control import start_control , stop_control , on_message

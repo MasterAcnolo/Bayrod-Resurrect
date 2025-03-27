@@ -3,6 +3,7 @@ from imports import *
 import discord
 from discord.ext import commands
 from commands.data import * 
+from data import *
 
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
@@ -44,8 +45,15 @@ status_command(bot)
 if DEBUG_MODE == True:
     print("Chargement de la commande Status ✅")
 
+# COMMANDE CONTROL
 
+start_control(bot)
+if DEBUG_MODE == True:
+    print("Chargement de la commande Start_control ✅")
 
+stop_control(bot)
+if DEBUG_MODE == True:
+    print("Chargement de la commande Stop Control ✅")
 # COMMANDE DIVERS / HELP
 help_commands(bot)
 if DEBUG_MODE == True:
@@ -76,5 +84,6 @@ if DEBUG_MODE == True:
 
 onload(bot)
 
+on_message(bot)
 
 bot.run(TOKEN)
