@@ -7,19 +7,23 @@ control_mode = False
 def start_control(bot):
     @bot.command()
     async def start_control(ctx):
-        """Active le mode de contrôle"""
-        global control_mode
-        control_mode = True
-        await ctx.send("✅ Mode contrôle activé !")
-
+        if ctx.author.id == AUTHORIZED_USER_ID:
+            """Active le mode de contrôle"""
+            global control_mode
+            control_mode = True
+            await ctx.send("✅ Mode contrôle activé !")
+        else: 
+            await ctx.send("❌ Désolé, tu n'es pas autorisé à exécuter cette commande.")
 def stop_control(bot):
     @bot.command()
     async def stop_control(ctx):
-        """Désactive le mode de contrôle"""
-        global control_mode
-        control_mode = False
-        await ctx.send("❌ Mode contrôle désactivé !")
-
+        if ctx.author.id == AUTHORIZED_USER_ID:
+            """Désactive le mode de contrôle"""
+            global control_mode
+            control_mode = False
+            await ctx.send("❌ Mode contrôle désactivé !")
+        else: 
+                await ctx.send("❌ Désolé, tu n'es pas autorisé à exécuter cette commande.")
 def on_message(bot):
     @bot.event
     async def on_message(message):
