@@ -11,6 +11,7 @@ Ensuite une fois que vous avez cloné le dépôt, vous pouvez installer les dép
 
 - `pip install python-dotenv`
 
+
 Après avoir installé les dépendances, créez un fichier `.env` dans le **dossier racine du projet**. Dans ce fichier créez une variable TOKEN et donnez-lui comme valeur votre token de bot. Pour récupérer votre token rendez-vous sur le site **Discord Developper Portal** > applications > et récupérer le token associé à votre bot. Attention ! Ne partagez surtout pas le token de votre bot ! 
 
 ## Explication du fonctionnement
