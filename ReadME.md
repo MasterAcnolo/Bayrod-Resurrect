@@ -1,4 +1,4 @@
-# Bayrod Reurrect
+# Bayrod Resurrect
 
 Ce projet est une conversion d'un bot discord à l'origine en JS et aujourd'hui traduit et réalisé entièrement en Python. En utilisant la lib discord.py. 
 
@@ -9,9 +9,7 @@ git clone https://github.com/MasterAcnolo/Bayrod-Resurrect
 
 Ensuite une fois que vous avez cloner le dépot. Vous pouvez ensuite installer les dépendances nécessaires. A savoir: 
 
-- '1'
-- '2'
-- '3'
+- '``pip install python-dotenv``'
 
 Après avoir installer les dépendances, créer un fichier `.env` dans le **dossier racine du projet**. Dans ce fichiers créez une variable TOKEN et donner lui comme valeur votre token de bot. Pour récuperer votre token rendez vous sur le site **Discord Developper Portal** > applications > et récupérer le token associé a votre bot. Attention ! Ne partagez surtout pas le token de votre bot ! 
 
