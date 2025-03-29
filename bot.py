@@ -5,6 +5,7 @@ from discord.ext import commands
 from commands.data import * 
 from data import *
 
+
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
 
@@ -79,11 +80,15 @@ guild_update(bot)
 member_join(bot)
 member_remove(bot)
 message_delete(bot)
+on_message(bot)
 if DEBUG_MODE == True:
     print("Fonctions d'événements prêtes ✅")
 
 onload(bot)
 
-on_message(bot)
+
+Music(bot)
+if DEBUG_MODE == True:
+    print("Fonctions de Musiques prêtes ✅")
 
 bot.run(TOKEN)

@@ -1,14 +1,17 @@
 prefix = ';'
-WELCOME_CHANNEL_ID = 1347277296788177037 # <-- Sur 'SERVEUR DE TEST' ACTUELLEMENT
+DEBUG_MODE = False
+
+
 DATA_FILE = "data\database.json" # <-- PATH DE LA BASE DE DONNEES
 COULEUR_EMBED_INFO = 0xff1100
 AUTHORIZED_USER_ID = 724954095042953246
 
-DEBUG_MODE = False
 
+WELCOME_CHANNEL_ID = 1347277296788177037 # <-- Sur 'SERVEUR DE TEST' ACTUELLEMENT
 BASE_SERVERS_DIR = "data/servers"
 BASE_USERS_DIR = "data/users"
 DIRECTORY_FILE = "data/user_directory.json"
+
 CONTROL_OUTPUT_CHANNEL_ID = 1308806097880088668
 CONTROL_INPUT_CHANNEL_ID = 1354693761313013902 
 
@@ -24,3 +27,6 @@ $$$$$$$  |\$$$$$$$ |\$$$$$$$ |$$ |      \$$$$$$  |\$$$$$$$ |      $$$$$$$  |\$$$
                     $$\   $$ |                                                                       
                     \$$$$$$  |                                                                       
                      \______/                                                        """
+
+FFMPEG_OPTIONS = {'options': "-vn"}
+YDL_OPTIONS = {'format': 'bestaudio', 'noplaylist': True}

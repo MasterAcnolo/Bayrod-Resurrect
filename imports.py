@@ -5,6 +5,11 @@ from variables import * # Importations de tous ce qu'il y à dans variables.py
 import os                                         
 import discord
 
+#import youtube_dl
+import yt_dlp   
+import asyncio
+import ffmpeg
+
 from discord.ext import commands
 from discord.ext.commands.errors import CommandNotFound 
 
@@ -28,6 +33,7 @@ from events.memberremove import *
 from data.getmessage import *
 from data.annuairefonction import *
 
+
 from commands.data import *
 from commands.help import *
 from commands.statut import * 
@@ -35,3 +41,6 @@ from commands.divers import *
 from commands.error import *
 from commands.backupbdd import * 
 from commands.control import start_control , stop_control , on_message
+from commands.music import Music
+
+

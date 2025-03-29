@@ -9,7 +9,7 @@ git clone https://github.com/MasterAcnolo/Bayrod-Resurrect
 
 Ensuite une fois que vous avez cloné le dépôt, vous pouvez installer les dépendances nécessaires. À savoir: 
 
-- `pip install python-dotenv`
+- `pip install python-dotenv discord.py ffmpeg youtube_dl`
 
 
 Après avoir installé les dépendances, créez un fichier `.env` dans le **dossier racine du projet**. Dans ce fichier créez une variable TOKEN et donnez-lui comme valeur votre token de bot. Pour récupérer votre token rendez-vous sur le site **Discord Developper Portal** > applications > et récupérer le token associé à votre bot. Attention ! Ne partagez surtout pas le token de votre bot ! 
