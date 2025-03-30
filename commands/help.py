@@ -10,10 +10,10 @@ def help_commands(bot):
             description=f"📂 Commandes Disponibles: XX\n♦️Le Préfix du Serveur est **{prefix}**\n☕️ En savoir plus avec : **{prefix}maj**" + "\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes Fetch Info: \n ```infos[@member],fetchall, server,update, backup```",
             color=0x001eff
         )
-        embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes Divers",value="```ping, ```", inline=False)
-        embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes Admin",value="```status, fetchall, backup, start_control, stop_control  ```",inline=False)
+        embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes Divers",value="```ping, code```", inline=False)
+        embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes Admin",value="```status, fetchall, backup, start_control, stop_control,  ```",inline=False)
         embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes Musique",value="```play, skip, join, queue_commands, queue ```",inline=False)
-        embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes De Data",value="```infos, server, ```",inline=False)
+        embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes De Data",value="```infos, server, id```",inline=False)
         
         await ctx.send(embed=embed)
         

@@ -17,4 +17,4 @@ def quoi_command(bot):
 def source_code(bot):
     @bot.command()
     async def code(ctx):
-        await ctx.send("**Voici le lien du projet [GitHub](<https://github.com/MasterAcnolo/Bayrod-Resurrect>) ** ")
+        await ctx.send("**Voici le lien du projet sur [GitHub](<https://github.com/MasterAcnolo/Bayrod-Resurrect>) ** ")

@@ -1,10 +1,6 @@
 from imports import *
 from variables import *
 from data.datafunction import fetch_server_data, fetch_user_data
-import discord
-from discord.ext import commands
-from datetime import datetime
-import shutil
 from data.annuairefonction import *
 
 def server_commands(bot):
@@ -73,12 +69,13 @@ def fetch_all_commands(bot):
             
             updated_count = 0
 
-            if DEBUG_MODE == True:
-                for member in members:
+            
+            for member in members:
+                if DEBUG_MODE == True:
                     print(f"Traitement de {member.name} ({member.id})")  
-                    result = fetch_user_data(member)  
-                    if result:
-                        updated_count += 1  
+                result = fetch_user_data(member)  
+                if result:
+                    updated_count += 1  
 
                 
             await ctx.send(f"✅ {updated_count} utilisateurs sur {total} ont été mis à jour dans la base de données !")
@@ -95,4 +92,4 @@ def fetch_user_id_command(bot):
             await ctx.send(f"🔎 L'utilisateur avec l'ID `{user_id}` est <@{user_id}>.", 
                            allowed_mentions=discord.AllowedMentions(users=False))
         else:
-            await ctx.send(f"❌ Aucun utilisateur trouvé pour l'ID `{user_id}`.")
+            await ctx.send(f"❌ Aucun utilisateur trouvé dans la base de donnée pour l'ID `{user_id}`.")
