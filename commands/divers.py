@@ -13,3 +13,8 @@ def quoi_command(bot):
     @bot.tree.command(name="quoi", description="Oui ?")
     async def ping(interaction: discord.Interaction):
         await interaction.response.send_message("Feur")
+
+def source_code(bot):
+    @bot.command()
+    async def code(ctx):
+        await ctx.send("**Voici le lien du projet [GitHub](<https://github.com/MasterAcnolo/Bayrod-Resurrect>) ** ")

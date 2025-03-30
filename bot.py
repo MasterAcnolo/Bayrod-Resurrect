@@ -68,6 +68,10 @@ quoi_command(bot)
 if DEBUG_MODE == True:
     print("Chargement de la commande Quoi ✅")
 
+source_code(bot)
+if DEBUG_MODE == True:
+    print("Chargement de la commande Source_code ✅")
+    
 # EVENEMENTS
 
 
