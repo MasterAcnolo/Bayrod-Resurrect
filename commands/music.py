@@ -76,3 +76,13 @@ def Music(bot):
         else:
             await ctx.send("Je ne suis pas dans un salon vocal.")
 
+    @bot.command()
+    async def queue_command(ctx):
+        if not queue:  
+            return await ctx.send("📭 La file d'attente est vide.")
+
+       
+        queue_text = "\n".join(f"{i+1}. {title}" for i, (_, title) in enumerate(queue))
+
+        await ctx.send(f"🎶 **File d'attente :**\n{queue_text}")
+         
