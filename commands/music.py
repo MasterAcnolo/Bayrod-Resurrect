@@ -85,4 +85,7 @@ def Music(bot):
         queue_text = "\n".join(f"{i+1}. {title}" for i, (_, title) in enumerate(queue))
 
         await ctx.send(f"🎶 **Musiques à venir**\n{queue_text}")
-         
+    @bot.commmand()
+    async def shuffle(ctx):
+        if queue:
+            queue = queue.join()
