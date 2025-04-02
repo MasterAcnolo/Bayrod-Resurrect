@@ -3,6 +3,8 @@ from variables import *
 
 
 queue = []
+loop = False
+
 def Music(bot):
     @bot.command()
     async def join(ctx):
@@ -45,17 +47,27 @@ def Music(bot):
             await play_next(ctx)
 
 
-
+    @bot.command()
+    async def loop(ctx):
+        """Commande pour activer/désactiver la boucle"""
+        global loop
+        loop = not loop
+        status = "activé 🔁" if loop else "désactivé ❌"
+        await ctx.send(f"🔄 Mode boucle {status}")
+    @bot.command()
     async def play_next(ctx):
-        """Joue la musique suivante dans la file d'attente"""
+        """Joue la musique suivante ou répète la musique si le mode boucle est activé"""
+        global loop
+        if ctx.voice_client and ctx.voice_client.is_playing():
+            return  # Empêche de jouer une nouvelle musique si déjà en cours
+
         if queue:
-            url, title = queue.pop(0)
+            url, title = queue[0] if loop else queue.pop(0)
             source = await discord.FFmpegOpusAudio.from_probe(url, **FFMPEG_OPTIONS)
             ctx.voice_client.play(source, after=lambda _: asyncio.run_coroutine_threadsafe(play_next(ctx), bot.loop))
             await ctx.send(f"▶️ Lecture en cours : **{title}**")
         else:
             await ctx.send("📭 La file d'attente est vide !")
-
 
     @bot.command()
     async def skip(ctx):
@@ -93,3 +105,45 @@ def Music(bot):
             await ctx.send("🔀 La file d'attente a été mélangée !")
         else:
             await ctx.send("📭 La file d'attente est vide.")
+            
+    @bot.command()
+    async def nowplaying(ctx):
+        """Commande pour afficher la musique en cours"""
+        if ctx.voice_client and ctx.voice_client.is_playing():
+            await ctx.send(f"🎵 Actuellement en train de jouer : **{queue[0][1]}**")
+        else:
+            await ctx.send("Aucune musique en cours de lecture.")
+            
+    @bot.command()
+    async def clear(ctx):
+            """Commande pour vider complètement la file d'attente"""
+            global queue
+            queue.clear()
+            await ctx.send("🗑 La file d'attente a été vidée.")
+            
+    @bot.command()
+    async def remove(ctx, index: int):
+        """Commmande pour retirer une musique dans la file d'attente"""
+        if 1 <= index <= len(queue):
+            removed_song = queue.pop(index - 1)
+            await ctx.send(f'Musique Retirée: **{removed_song[1]}**')
+        else:
+            await ctx.send("Numéro Invalide, Vérifie la fille d'attente avec" + prefix + "queue_commands")
+            
+    @bot.command()
+    async def pause(ctx):
+        """Commande pour mettre la musique en pause"""
+        if ctx.voice_client and ctx.voice_client.is_playing():
+            ctx.voice_client.pause()
+            await ctx.send("⏸ Musique mise en pause.")
+        else:
+            await ctx.send("Aucune musique en cours de lecture.")
+
+    @bot.command()
+    async def resume(ctx):
+        """Commande pour reprendre la musique en pause"""
+        if ctx.voice_client and ctx.voice_client.is_paused():
+            ctx.voice_client.resume()
+            await ctx.send("▶️ Musique reprise.")
+        else:
+            await ctx.send("Aucune musique en pause.")

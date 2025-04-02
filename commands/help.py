@@ -12,7 +12,7 @@ def help_commands(bot):
         )
         embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes Divers",value="```ping, code```", inline=False)
         embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes Admin",value="```status, fetchall, backup, start_control, stop_control,  ```",inline=False)
-        embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes Musique",value="```play, skip, join, queue_commands, queue, shuffle ```",inline=False)
+        embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes Musique",value="```play, skip, join, queue_commands, queue, shuffle, pause, resume, clear, remove, nowplaying ```",inline=False)
         embed.add_field(name="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n Commandes De Data",value="```infos, server, id```",inline=False)
         
         await ctx.send(embed=embed)
