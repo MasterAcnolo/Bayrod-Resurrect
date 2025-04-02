@@ -85,7 +85,11 @@ def Music(bot):
         queue_text = "\n".join(f"{i+1}. {title}" for i, (_, title) in enumerate(queue))
 
         await ctx.send(f"🎶 **Musiques à venir**\n{queue_text}")
-    @bot.commmand()
+    @bot.command()
     async def shuffle(ctx):
+        """Commande pour mélanger la file d'attente"""
         if queue:
-            queue = queue.join()
+            random.shuffle(queue)
+            await ctx.send("🔀 La file d'attente a été mélangée !")
+        else:
+            await ctx.send("📭 La file d'attente est vide.")

@@ -9,6 +9,7 @@ import discord
 import yt_dlp   
 import asyncio
 import ffmpeg
+import random
 
 from discord.ext import commands
 from discord.ext.commands.errors import CommandNotFound 
