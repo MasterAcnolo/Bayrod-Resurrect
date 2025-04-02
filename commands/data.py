@@ -2,6 +2,7 @@ from imports import *
 from variables import *
 from data.datafunction import fetch_server_data, fetch_user_data
 from data.annuairefonction import *
+import discord
 
 def server_commands(bot):
     @bot.command()
