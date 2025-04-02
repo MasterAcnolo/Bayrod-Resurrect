@@ -95,4 +95,5 @@ Music(bot)
 if DEBUG_MODE == True:
     print("Fonctions de Musiques prêtes ✅")
 
+
 bot.run(TOKEN)
