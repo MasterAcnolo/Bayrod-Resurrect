@@ -11,3 +11,6 @@ def status_command(bot):
             await ctx.send(f"Le statut a été changé en: {new_status}")
         else:
             await ctx.send("Désolé, tu n'es pas autorisé à exécuter cette comamande")
+            
+            
+            
