@@ -106,6 +106,8 @@ def Music(bot):
         else:
             await ctx.send("📭 La file d'attente est vide.")
             
+            
+            
     @bot.command()
     async def nowplaying(ctx):
         """Commande pour afficher la musique en cours"""
