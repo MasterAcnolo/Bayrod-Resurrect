@@ -74,10 +74,12 @@ source_code(bot)
 if DEBUG_MODE == True:
     print("Chargement de la commande Source_code ✅")
     
+assettocorsa(bot)
+if DEBUG_MODE == True:
+    print("Chargement de la commande Assettocorsa ✅")
 # EVENEMENTS
 
 
-antierror(bot)
 if DEBUG_MODE == True:
     print("Anti Erreur Prêt ✅")
 

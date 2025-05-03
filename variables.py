@@ -42,3 +42,29 @@ debug_ascii = """ /$$$$$$$            /$$                                 /$$   
                                          /$$  \ $$                                                 
                                         |  $$$$$$/                                                 
                                          \______/                                                  """
+                                         
+
+MESSAGE_ASSETTO = """# Comment Installer Des Mods Sur Assetto Corsa
+
+## Installer Content Manager
+
+Rendez vous sur le [Drive](https://drive.google.com/drive/folders/11kvgbI9qiIeyqIjophSnKUyVubxRhJMN?usp=sharing) et télécharger** Content Manager** ainsi que le **VPN**. C'est **Radmin VPN** et celui ci nous sera utile pour la suite.
+Téléchargez donc le Fichier *Content Manager.zip* puis décompressez le. Et executer le .exe et suivez les instructions.
+Téléchargez le fichier **VPN.exe** (qui correspond à Radmin VPN.exe) puis executez le programme. Suivez les instructions encore une fois. 
+
+## Installez les mods 
+
+Une fois une **clé de licence obtenue et rentré dans CM**, vous n'avez cas **glisser déposer** les mods sous le format ZIP **dans la fenêtre de Content Manager**. 
+Une petite** icône verte apparaîtra en haut à droite**, **cliquez** dessus et cliquez sur **installer les mods**. Si il n'y a pas d'erreur de décrite les mods fonctionneront nickel !
+
+## Rejoindre Un Serveur
+
+Pour rejoindre un serveur cela se fait en deux étapes:
+
+- Ouvrez **Radmin VPN** et cliquez sur rejoindre un réseau et **renseigner l'ID ainsi que le mot de passe** de la session. Cela vous connaitre a une sorte de réseau LAN permettant ensuite de rejoindre le serveur Assetto Corsa 
+- Dans Assetto Corsa. Allez dans **En Ligne** >> ** Favourites ** >> Chercher en bas à gauche l'icône **+** >>  et renseignez l'IP que l'Hôte vous donnera.
+
+
+# Liens Ressources:
+
+## [Drive](https://drive.google.com/drive/folders/11kvgbI9qiIeyqIjophSnKUyVubxRhJMN?usp=sharing)"""

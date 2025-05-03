@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from variables import *
 
 def ping_command(bot):
     @bot.command()
@@ -18,3 +19,8 @@ def source_code(bot):
     @bot.command()
     async def code(ctx):
         await ctx.send("**Voici le lien du projet sur [GitHub](<https://github.com/MasterAcnolo/Bayrod-Resurrect>) ** ")
+
+def assettocorsa(bot):
+    @bot.command()
+    async def assettocorsa(ctx):
+        await ctx.send(MESSAGE_ASSETTO)
