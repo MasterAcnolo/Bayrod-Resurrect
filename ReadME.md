@@ -7,7 +7,7 @@ Ce projet est une conversion d'un bot Discord à l'origine en JS et aujourd'hui 
 git clone https://github.com/MasterAcnolo/Bayrod-Resurrect
 ```
 
-Ensuite une fois que vous avez cloné le dépôt, vous pouvez installer les dépendances nécessaires. À savoir: 
+Ensuite une fois que vous avez cloné le dépôt, vous pouvez installer les dépendances nécessaires. À savoir:  
 
 - `pip install python-dotenv discord.py ffmpeg youtube_dl`
 
