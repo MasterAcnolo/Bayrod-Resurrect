@@ -1,5 +1,5 @@
 prefix = ';'
-DEBUG_MODE = False
+DEBUG_MODE = True
 
 
 FFMPEG_OPTIONS = {'options': "-vn"}
