@@ -72,7 +72,7 @@ if DEBUG_MODE == True:
 
 source_code(bot)
 if DEBUG_MODE == True:
-    print("Chargement de la commande Source_code ✅")
+    print("Chargement de la commande code ✅")
     
 assettocorsa(bot)
 if DEBUG_MODE == True:
