@@ -17,7 +17,7 @@ Après avoir installé les dépendances, créez un fichier `.env` dans le **doss
 ## Explication du fonctionnement
 
 Ce bot fonctionne non pas avec un index mais avec un handler. C'est à dire que chaque fonction est appelée par un fichier externe depuis le fichier principal : **bot.py**. Regardez et essayez de comprendre comment le code est constitué et vous comprendrez vite comment tout fonctionne. Le code est assez bien divisé en dossiers et fichiers nommés de façon explicite. 
-Vous retrouverez dans le fichier `variables.py` différentes variables que vous pourrez personnaliser. Toute façon,si vous lisez ceci, c'est que vous savez ce que vous voulez ou ce que vous cherchez. Vous aurez par conséquzent assez de jugeote pour pouvoir modifier le code selon vos besoins.
+Vous retrouverez dans le fichier `variables.py` différentes variables que vous pourrez personnaliser. Toute façon,si vous lisez ceci, c'est que vous savez ce que vous voulez ou ce que vous cherchez. Vous aurez par conséquent assez de jugeote pour pouvoir modifier le code selon vos besoins.
 
 ## Licences
 
